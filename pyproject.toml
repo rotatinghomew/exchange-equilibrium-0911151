@@ -1,0 +1,8 @@
+[project]
+name = "exchange-equilibrium"
+version = "0.1.0"
+description = "跨币种交易及价格指数的修订版次概览"
+requires-python = ">=3.11,<3.12"
+
+[tool.unittest]
+start-directory = "tests"

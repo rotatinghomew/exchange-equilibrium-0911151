@@ -1,0 +1,4772 @@
+{
+  "schema_version": 1,
+  "product": "exchange-equilibrium",
+  "description": "本地合成业务记录；不对应真实个人、机构或调查结论。",
+  "tables": {
+    "series": [
+      {
+        "id": "a",
+        "revision": 1,
+        "released_at": "2024-01-01",
+        "currency": "CNY",
+        "price_base": "2024"
+      },
+      {
+        "id": "b",
+        "revision": 1,
+        "released_at": "2024-01-01",
+        "currency": "USD",
+        "price_base": "2024"
+      },
+      {
+        "id": "c",
+        "revision": 1,
+        "released_at": "2024-01-01",
+        "currency": "EUR",
+        "price_base": "2024"
+      }
+    ],
+    "observations": [
+      {
+        "id": "a-0",
+        "revision": 1,
+        "released_at": "2024-01-04",
+        "series": "a",
+        "month": 0,
+        "value": 100.5327,
+        "scope": "original"
+      },
+      {
+        "id": "a-0",
+        "revision": 2,
+        "released_at": "2024-01-21",
+        "series": "a",
+        "month": 0,
+        "value": 103.0461,
+        "scope": "original"
+      },
+      {
+        "id": "b-0",
+        "revision": 1,
+        "released_at": "2024-01-04",
+        "series": "b",
+        "month": 0,
+        "value": 178.9187,
+        "scope": "original"
+      },
+      {
+        "id": "b-0",
+        "revision": 2,
+        "released_at": "2024-01-21",
+        "series": "b",
+        "month": 0,
+        "value": 183.3917,
+        "scope": "original"
+      },
+      {
+        "id": "c-0",
+        "revision": 1,
+        "released_at": "2024-01-04",
+        "series": "c",
+        "month": 0,
+        "value": 60.938,
+        "scope": "original"
+      },
+      {
+        "id": "c-0",
+        "revision": 2,
+        "released_at": "2024-01-21",
+        "series": "c",
+        "month": 0,
+        "value": 62.4614,
+        "scope": "original"
+      },
+      {
+        "id": "a-1",
+        "revision": 1,
+        "released_at": "2024-01-07",
+        "series": "a",
+        "month": 1,
+        "value": 98.7104,
+        "scope": "original"
+      },
+      {
+        "id": "b-1",
+        "revision": 1,
+        "released_at": "2024-01-07",
+        "series": "b",
+        "month": 1,
+        "value": 176.3378,
+        "scope": "original"
+      },
+      {
+        "id": "c-1",
+        "revision": 1,
+        "released_at": "2024-01-07",
+        "series": "c",
+        "month": 1,
+        "value": 62.7033,
+        "scope": "original"
+      },
+      {
+        "id": "a-2",
+        "revision": 1,
+        "released_at": "2024-01-10",
+        "series": "a",
+        "month": 2,
+        "value": 95.1761,
+        "scope": "original"
+      },
+      {
+        "id": "b-2",
+        "revision": 1,
+        "released_at": "2024-01-10",
+        "series": "b",
+        "month": 2,
+        "value": 167.5009,
+        "scope": "original"
+      },
+      {
+        "id": "c-2",
+        "revision": 1,
+        "released_at": "2024-01-10",
+        "series": "c",
+        "month": 2,
+        "value": 59.909,
+        "scope": "original"
+      },
+      {
+        "id": "a-3",
+        "revision": 1,
+        "released_at": "2024-01-13",
+        "series": "a",
+        "month": 3,
+        "value": 93.5668,
+        "scope": "original"
+      },
+      {
+        "id": "b-3",
+        "revision": 1,
+        "released_at": "2024-01-13",
+        "series": "b",
+        "month": 3,
+        "value": 163.7405,
+        "scope": "original"
+      },
+      {
+        "id": "c-3",
+        "revision": 1,
+        "released_at": "2024-01-13",
+        "series": "c",
+        "month": 3,
+        "value": 60.0749,
+        "scope": "original"
+      },
+      {
+        "id": "a-4",
+        "revision": 1,
+        "released_at": "2024-01-16",
+        "series": "a",
+        "month": 4,
+        "value": 94.6229,
+        "scope": "original"
+      },
+      {
+        "id": "b-4",
+        "revision": 1,
+        "released_at": "2024-01-16",
+        "series": "b",
+        "month": 4,
+        "value": 167.7108,
+        "scope": "original"
+      },
+      {
+        "id": "c-4",
+        "revision": 1,
+        "released_at": "2024-01-16",
+        "series": "c",
+        "month": 4,
+        "value": 60.6564,
+        "scope": "original"
+      },
+      {
+        "id": "a-5",
+        "revision": 1,
+        "released_at": "2024-01-19",
+        "series": "a",
+        "month": 5,
+        "value": 92.4862,
+        "scope": "original"
+      },
+      {
+        "id": "b-5",
+        "revision": 1,
+        "released_at": "2024-01-19",
+        "series": "b",
+        "month": 5,
+        "value": 170.4228,
+        "scope": "original"
+      },
+      {
+        "id": "c-5",
+        "revision": 1,
+        "released_at": "2024-01-19",
+        "series": "c",
+        "month": 5,
+        "value": 55.5794,
+        "scope": "original"
+      },
+      {
+        "id": "a-6",
+        "revision": 1,
+        "released_at": "2024-01-22",
+        "series": "a",
+        "month": 6,
+        "value": 93.2154,
+        "scope": "original"
+      },
+      {
+        "id": "b-6",
+        "revision": 1,
+        "released_at": "2024-01-22",
+        "series": "b",
+        "month": 6,
+        "value": 175.1867,
+        "scope": "original"
+      },
+      {
+        "id": "c-6",
+        "revision": 1,
+        "released_at": "2024-01-22",
+        "series": "c",
+        "month": 6,
+        "value": 62.0037,
+        "scope": "original"
+      },
+      {
+        "id": "a-7",
+        "revision": 1,
+        "released_at": "2024-01-25",
+        "series": "a",
+        "month": 7,
+        "value": 93.7542,
+        "scope": "original"
+      },
+      {
+        "id": "b-7",
+        "revision": 1,
+        "released_at": "2024-01-25",
+        "series": "b",
+        "month": 7,
+        "value": 166.499,
+        "scope": "original"
+      },
+      {
+        "id": "c-7",
+        "revision": 1,
+        "released_at": "2024-01-25",
+        "series": "c",
+        "month": 7,
+        "value": 60.0074,
+        "scope": "original"
+      },
+      {
+        "id": "a-8",
+        "revision": 1,
+        "released_at": "2024-01-28",
+        "series": "a",
+        "month": 8,
+        "value": 102.0741,
+        "scope": "original"
+      },
+      {
+        "id": "b-8",
+        "revision": 1,
+        "released_at": "2024-01-28",
+        "series": "b",
+        "month": 8,
+        "value": 169.3405,
+        "scope": "original"
+      },
+      {
+        "id": "c-8",
+        "revision": 1,
+        "released_at": "2024-01-28",
+        "series": "c",
+        "month": 8,
+        "value": 59.6776,
+        "scope": "original"
+      },
+      {
+        "id": "a-9",
+        "revision": 1,
+        "released_at": "2024-01-31",
+        "series": "a",
+        "month": 9,
+        "value": 93.8279,
+        "scope": "original"
+      },
+      {
+        "id": "b-9",
+        "revision": 1,
+        "released_at": "2024-01-31",
+        "series": "b",
+        "month": 9,
+        "value": 171.3199,
+        "scope": "original"
+      },
+      {
+        "id": "c-9",
+        "revision": 1,
+        "released_at": "2024-01-31",
+        "series": "c",
+        "month": 9,
+        "value": 63.0283,
+        "scope": "original"
+      },
+      {
+        "id": "a-10",
+        "revision": 1,
+        "released_at": "2024-02-03",
+        "series": "a",
+        "month": 10,
+        "value": 94.8084,
+        "scope": "original"
+      },
+      {
+        "id": "b-10",
+        "revision": 1,
+        "released_at": "2024-02-03",
+        "series": "b",
+        "month": 10,
+        "value": 168.0409,
+        "scope": "original"
+      },
+      {
+        "id": "c-10",
+        "revision": 1,
+        "released_at": "2024-02-03",
+        "series": "c",
+        "month": 10,
+        "value": 59.394,
+        "scope": "original"
+      },
+      {
+        "id": "a-11",
+        "revision": 1,
+        "released_at": "2024-02-06",
+        "series": "a",
+        "month": 11,
+        "value": 90.8443,
+        "scope": "original"
+      },
+      {
+        "id": "b-11",
+        "revision": 1,
+        "released_at": "2024-02-06",
+        "series": "b",
+        "month": 11,
+        "value": 172.21,
+        "scope": "original"
+      },
+      {
+        "id": "c-11",
+        "revision": 1,
+        "released_at": "2024-02-06",
+        "series": "c",
+        "month": 11,
+        "value": 60.4769,
+        "scope": "original"
+      },
+      {
+        "id": "a-12",
+        "revision": 1,
+        "released_at": "2024-02-09",
+        "series": "a",
+        "month": 12,
+        "value": 91.4681,
+        "scope": "original"
+      },
+      {
+        "id": "a-12",
+        "revision": 2,
+        "released_at": "2024-02-26",
+        "series": "a",
+        "month": 12,
+        "value": 93.7548,
+        "scope": "original"
+      },
+      {
+        "id": "b-12",
+        "revision": 1,
+        "released_at": "2024-02-09",
+        "series": "b",
+        "month": 12,
+        "value": 166.6048,
+        "scope": "original"
+      },
+      {
+        "id": "b-12",
+        "revision": 2,
+        "released_at": "2024-02-26",
+        "series": "b",
+        "month": 12,
+        "value": 170.7699,
+        "scope": "original"
+      },
+      {
+        "id": "c-12",
+        "revision": 1,
+        "released_at": "2024-02-09",
+        "series": "c",
+        "month": 12,
+        "value": 58.5581,
+        "scope": "original"
+      },
+      {
+        "id": "c-12",
+        "revision": 2,
+        "released_at": "2024-02-26",
+        "series": "c",
+        "month": 12,
+        "value": 60.0221,
+        "scope": "original"
+      },
+      {
+        "id": "a-13",
+        "revision": 1,
+        "released_at": "2024-02-12",
+        "series": "a",
+        "month": 13,
+        "value": 96.5997,
+        "scope": "original"
+      },
+      {
+        "id": "b-13",
+        "revision": 1,
+        "released_at": "2024-02-12",
+        "series": "b",
+        "month": 13,
+        "value": 165.5753,
+        "scope": "original"
+      },
+      {
+        "id": "c-13",
+        "revision": 1,
+        "released_at": "2024-02-12",
+        "series": "c",
+        "month": 13,
+        "value": 60.7394,
+        "scope": "original"
+      },
+      {
+        "id": "a-14",
+        "revision": 1,
+        "released_at": "2024-02-15",
+        "series": "a",
+        "month": 14,
+        "value": 91.7285,
+        "scope": "original"
+      },
+      {
+        "id": "b-14",
+        "revision": 1,
+        "released_at": "2024-02-15",
+        "series": "b",
+        "month": 14,
+        "value": 161.167,
+        "scope": "original"
+      },
+      {
+        "id": "c-14",
+        "revision": 1,
+        "released_at": "2024-02-15",
+        "series": "c",
+        "month": 14,
+        "value": 61.9124,
+        "scope": "original"
+      },
+      {
+        "id": "a-15",
+        "revision": 1,
+        "released_at": "2024-02-18",
+        "series": "a",
+        "month": 15,
+        "value": 91.9325,
+        "scope": "original"
+      },
+      {
+        "id": "b-15",
+        "revision": 1,
+        "released_at": "2024-02-18",
+        "series": "b",
+        "month": 15,
+        "value": 166.7782,
+        "scope": "original"
+      },
+      {
+        "id": "c-15",
+        "revision": 1,
+        "released_at": "2024-02-18",
+        "series": "c",
+        "month": 15,
+        "value": 55.9021,
+        "scope": "original"
+      },
+      {
+        "id": "a-16",
+        "revision": 1,
+        "released_at": "2024-02-21",
+        "series": "a",
+        "month": 16,
+        "value": 87.5295,
+        "scope": "original"
+      },
+      {
+        "id": "b-16",
+        "revision": 1,
+        "released_at": "2024-02-21",
+        "series": "b",
+        "month": 16,
+        "value": 165.2957,
+        "scope": "original"
+      },
+      {
+        "id": "c-16",
+        "revision": 1,
+        "released_at": "2024-02-21",
+        "series": "c",
+        "month": 16,
+        "value": 65.4297,
+        "scope": "original"
+      },
+      {
+        "id": "a-17",
+        "revision": 1,
+        "released_at": "2024-02-24",
+        "series": "a",
+        "month": 17,
+        "value": 87.803,
+        "scope": "original"
+      },
+      {
+        "id": "b-17",
+        "revision": 1,
+        "released_at": "2024-02-24",
+        "series": "b",
+        "month": 17,
+        "value": 163.5218,
+        "scope": "original"
+      },
+      {
+        "id": "c-17",
+        "revision": 1,
+        "released_at": "2024-02-24",
+        "series": "c",
+        "month": 17,
+        "value": 59.4885,
+        "scope": "original"
+      },
+      {
+        "id": "a-18",
+        "revision": 1,
+        "released_at": "2024-02-27",
+        "series": "a",
+        "month": 18,
+        "value": 85.9177,
+        "scope": "original"
+      },
+      {
+        "id": "b-18",
+        "revision": 1,
+        "released_at": "2024-02-27",
+        "series": "b",
+        "month": 18,
+        "value": 165.1164,
+        "scope": "original"
+      },
+      {
+        "id": "c-18",
+        "revision": 1,
+        "released_at": "2024-02-27",
+        "series": "c",
+        "month": 18,
+        "value": 57.5329,
+        "scope": "original"
+      },
+      {
+        "id": "a-19",
+        "revision": 1,
+        "released_at": "2024-03-01",
+        "series": "a",
+        "month": 19,
+        "value": 93.4863,
+        "scope": "original"
+      },
+      {
+        "id": "b-19",
+        "revision": 1,
+        "released_at": "2024-03-01",
+        "series": "b",
+        "month": 19,
+        "value": 167.0893,
+        "scope": "original"
+      },
+      {
+        "id": "c-19",
+        "revision": 1,
+        "released_at": "2024-03-01",
+        "series": "c",
+        "month": 19,
+        "value": 59.6614,
+        "scope": "original"
+      },
+      {
+        "id": "a-20",
+        "revision": 1,
+        "released_at": "2024-03-04",
+        "series": "a",
+        "month": 20,
+        "value": 93.6662,
+        "scope": "original"
+      },
+      {
+        "id": "b-20",
+        "revision": 1,
+        "released_at": "2024-03-04",
+        "series": "b",
+        "month": 20,
+        "value": 173.8541,
+        "scope": "original"
+      },
+      {
+        "id": "c-20",
+        "revision": 1,
+        "released_at": "2024-03-04",
+        "series": "c",
+        "month": 20,
+        "value": 62.7066,
+        "scope": "original"
+      },
+      {
+        "id": "a-21",
+        "revision": 1,
+        "released_at": "2024-03-07",
+        "series": "a",
+        "month": 21,
+        "value": 95.242,
+        "scope": "original"
+      },
+      {
+        "id": "b-21",
+        "revision": 1,
+        "released_at": "2024-03-07",
+        "series": "b",
+        "month": 21,
+        "value": 166.1792,
+        "scope": "original"
+      },
+      {
+        "id": "c-21",
+        "revision": 1,
+        "released_at": "2024-03-07",
+        "series": "c",
+        "month": 21,
+        "value": 58.7188,
+        "scope": "original"
+      },
+      {
+        "id": "a-22",
+        "revision": 1,
+        "released_at": "2024-03-10",
+        "series": "a",
+        "month": 22,
+        "value": 95.443,
+        "scope": "original"
+      },
+      {
+        "id": "b-22",
+        "revision": 1,
+        "released_at": "2024-03-10",
+        "series": "b",
+        "month": 22,
+        "value": 169.6215,
+        "scope": "original"
+      },
+      {
+        "id": "c-22",
+        "revision": 1,
+        "released_at": "2024-03-10",
+        "series": "c",
+        "month": 22,
+        "value": 59.6769,
+        "scope": "original"
+      },
+      {
+        "id": "a-23",
+        "revision": 1,
+        "released_at": "2024-03-13",
+        "series": "a",
+        "month": 23,
+        "value": 91.899,
+        "scope": "original"
+      },
+      {
+        "id": "b-23",
+        "revision": 1,
+        "released_at": "2024-03-13",
+        "series": "b",
+        "month": 23,
+        "value": 167.5715,
+        "scope": "original"
+      },
+      {
+        "id": "c-23",
+        "revision": 1,
+        "released_at": "2024-03-13",
+        "series": "c",
+        "month": 23,
+        "value": 65.6311,
+        "scope": "original"
+      },
+      {
+        "id": "a-24",
+        "revision": 1,
+        "released_at": "2024-03-16",
+        "series": "a",
+        "month": 24,
+        "value": 98.6528,
+        "scope": "original"
+      },
+      {
+        "id": "a-24",
+        "revision": 2,
+        "released_at": "2024-04-02",
+        "series": "a",
+        "month": 24,
+        "value": 101.1191,
+        "scope": "original"
+      },
+      {
+        "id": "b-24",
+        "revision": 1,
+        "released_at": "2024-03-16",
+        "series": "b",
+        "month": 24,
+        "value": 175.2106,
+        "scope": "original"
+      },
+      {
+        "id": "b-24",
+        "revision": 2,
+        "released_at": "2024-04-02",
+        "series": "b",
+        "month": 24,
+        "value": 179.5909,
+        "scope": "original"
+      },
+      {
+        "id": "c-24",
+        "revision": 1,
+        "released_at": "2024-03-16",
+        "series": "c",
+        "month": 24,
+        "value": 59.0925,
+        "scope": "original"
+      },
+      {
+        "id": "c-24",
+        "revision": 2,
+        "released_at": "2024-04-02",
+        "series": "c",
+        "month": 24,
+        "value": 60.5699,
+        "scope": "original"
+      },
+      {
+        "id": "a-25",
+        "revision": 1,
+        "released_at": "2024-03-19",
+        "series": "a",
+        "month": 25,
+        "value": 96.6678,
+        "scope": "original"
+      },
+      {
+        "id": "b-25",
+        "revision": 1,
+        "released_at": "2024-03-19",
+        "series": "b",
+        "month": 25,
+        "value": 168.133,
+        "scope": "original"
+      },
+      {
+        "id": "c-25",
+        "revision": 1,
+        "released_at": "2024-03-19",
+        "series": "c",
+        "month": 25,
+        "value": 63.3095,
+        "scope": "original"
+      },
+      {
+        "id": "a-26",
+        "revision": 1,
+        "released_at": "2024-03-22",
+        "series": "a",
+        "month": 26,
+        "value": 91.6941,
+        "scope": "original"
+      },
+      {
+        "id": "b-26",
+        "revision": 1,
+        "released_at": "2024-03-22",
+        "series": "b",
+        "month": 26,
+        "value": 168.1688,
+        "scope": "original"
+      },
+      {
+        "id": "c-26",
+        "revision": 1,
+        "released_at": "2024-03-22",
+        "series": "c",
+        "month": 26,
+        "value": 60.5035,
+        "scope": "original"
+      },
+      {
+        "id": "a-27",
+        "revision": 1,
+        "released_at": "2024-03-25",
+        "series": "a",
+        "month": 27,
+        "value": 93.5855,
+        "scope": "original"
+      },
+      {
+        "id": "b-27",
+        "revision": 1,
+        "released_at": "2024-03-25",
+        "series": "b",
+        "month": 27,
+        "value": 172.2222,
+        "scope": "original"
+      },
+      {
+        "id": "c-27",
+        "revision": 1,
+        "released_at": "2024-03-25",
+        "series": "c",
+        "month": 27,
+        "value": 62.7051,
+        "scope": "original"
+      },
+      {
+        "id": "a-28",
+        "revision": 1,
+        "released_at": "2024-03-28",
+        "series": "a",
+        "month": 28,
+        "value": 96.8928,
+        "scope": "original"
+      },
+      {
+        "id": "b-28",
+        "revision": 1,
+        "released_at": "2024-03-28",
+        "series": "b",
+        "month": 28,
+        "value": 168.1673,
+        "scope": "original"
+      },
+      {
+        "id": "c-28",
+        "revision": 1,
+        "released_at": "2024-03-28",
+        "series": "c",
+        "month": 28,
+        "value": 63.0308,
+        "scope": "original"
+      },
+      {
+        "id": "a-29",
+        "revision": 1,
+        "released_at": "2024-03-31",
+        "series": "a",
+        "month": 29,
+        "value": 93.4154,
+        "scope": "original"
+      },
+      {
+        "id": "b-29",
+        "revision": 1,
+        "released_at": "2024-03-31",
+        "series": "b",
+        "month": 29,
+        "value": 182.2012,
+        "scope": "original"
+      },
+      {
+        "id": "c-29",
+        "revision": 1,
+        "released_at": "2024-03-31",
+        "series": "c",
+        "month": 29,
+        "value": 65.6805,
+        "scope": "original"
+      },
+      {
+        "id": "a-30",
+        "revision": 1,
+        "released_at": "2024-04-03",
+        "series": "a",
+        "month": 30,
+        "value": 97.934,
+        "scope": "original"
+      },
+      {
+        "id": "b-30",
+        "revision": 1,
+        "released_at": "2024-04-03",
+        "series": "b",
+        "month": 30,
+        "value": 175.7234,
+        "scope": "original"
+      },
+      {
+        "id": "c-30",
+        "revision": 1,
+        "released_at": "2024-04-03",
+        "series": "c",
+        "month": 30,
+        "value": 67.1609,
+        "scope": "original"
+      },
+      {
+        "id": "a-31",
+        "revision": 1,
+        "released_at": "2024-04-06",
+        "series": "a",
+        "month": 31,
+        "value": 92.0457,
+        "scope": "original"
+      },
+      {
+        "id": "b-31",
+        "revision": 1,
+        "released_at": "2024-04-06",
+        "series": "b",
+        "month": 31,
+        "value": 173.3196,
+        "scope": "original"
+      },
+      {
+        "id": "c-31",
+        "revision": 1,
+        "released_at": "2024-04-06",
+        "series": "c",
+        "month": 31,
+        "value": 64.1387,
+        "scope": "original"
+      },
+      {
+        "id": "a-32",
+        "revision": 1,
+        "released_at": "2024-04-09",
+        "series": "a",
+        "month": 32,
+        "value": 94.9128,
+        "scope": "original"
+      },
+      {
+        "id": "b-32",
+        "revision": 1,
+        "released_at": "2024-04-09",
+        "series": "b",
+        "month": 32,
+        "value": 173.1119,
+        "scope": "original"
+      },
+      {
+        "id": "c-32",
+        "revision": 1,
+        "released_at": "2024-04-09",
+        "series": "c",
+        "month": 32,
+        "value": 62.8648,
+        "scope": "original"
+      },
+      {
+        "id": "a-33",
+        "revision": 1,
+        "released_at": "2024-04-12",
+        "series": "a",
+        "month": 33,
+        "value": 92.1809,
+        "scope": "original"
+      },
+      {
+        "id": "b-33",
+        "revision": 1,
+        "released_at": "2024-04-12",
+        "series": "b",
+        "month": 33,
+        "value": 170.2581,
+        "scope": "original"
+      },
+      {
+        "id": "c-33",
+        "revision": 1,
+        "released_at": "2024-04-12",
+        "series": "c",
+        "month": 33,
+        "value": 56.5069,
+        "scope": "original"
+      },
+      {
+        "id": "a-34",
+        "revision": 1,
+        "released_at": "2024-04-15",
+        "series": "a",
+        "month": 34,
+        "value": 85.8109,
+        "scope": "original"
+      },
+      {
+        "id": "b-34",
+        "revision": 1,
+        "released_at": "2024-04-15",
+        "series": "b",
+        "month": 34,
+        "value": 159.1086,
+        "scope": "original"
+      },
+      {
+        "id": "c-34",
+        "revision": 1,
+        "released_at": "2024-04-15",
+        "series": "c",
+        "month": 34,
+        "value": 62.2066,
+        "scope": "original"
+      },
+      {
+        "id": "a-35",
+        "revision": 1,
+        "released_at": "2024-04-18",
+        "series": "a",
+        "month": 35,
+        "value": 92.7895,
+        "scope": "original"
+      },
+      {
+        "id": "b-35",
+        "revision": 1,
+        "released_at": "2024-04-18",
+        "series": "b",
+        "month": 35,
+        "value": 168.7925,
+        "scope": "original"
+      },
+      {
+        "id": "c-35",
+        "revision": 1,
+        "released_at": "2024-04-18",
+        "series": "c",
+        "month": 35,
+        "value": 57.5687,
+        "scope": "original"
+      },
+      {
+        "id": "a-36",
+        "revision": 1,
+        "released_at": "2024-04-21",
+        "series": "a",
+        "month": 36,
+        "value": 91.3695,
+        "scope": "original"
+      },
+      {
+        "id": "a-36",
+        "revision": 2,
+        "released_at": "2024-05-08",
+        "series": "a",
+        "month": 36,
+        "value": 93.6537,
+        "scope": "original"
+      },
+      {
+        "id": "b-36",
+        "revision": 1,
+        "released_at": "2024-04-21",
+        "series": "b",
+        "month": 36,
+        "value": 164.8462,
+        "scope": "original"
+      },
+      {
+        "id": "b-36",
+        "revision": 2,
+        "released_at": "2024-05-08",
+        "series": "b",
+        "month": 36,
+        "value": 168.9674,
+        "scope": "original"
+      },
+      {
+        "id": "c-36",
+        "revision": 1,
+        "released_at": "2024-04-21",
+        "series": "c",
+        "month": 36,
+        "value": 58.9088,
+        "scope": "original"
+      },
+      {
+        "id": "c-36",
+        "revision": 2,
+        "released_at": "2024-05-08",
+        "series": "c",
+        "month": 36,
+        "value": 60.3816,
+        "scope": "original"
+      },
+      {
+        "id": "a-37",
+        "revision": 1,
+        "released_at": "2024-04-24",
+        "series": "a",
+        "month": 37,
+        "value": 97.5686,
+        "scope": "original"
+      },
+      {
+        "id": "b-37",
+        "revision": 1,
+        "released_at": "2024-04-24",
+        "series": "b",
+        "month": 37,
+        "value": 171.9024,
+        "scope": "original"
+      },
+      {
+        "id": "c-37",
+        "revision": 1,
+        "released_at": "2024-04-24",
+        "series": "c",
+        "month": 37,
+        "value": 60.7045,
+        "scope": "original"
+      },
+      {
+        "id": "a-38",
+        "revision": 1,
+        "released_at": "2024-04-27",
+        "series": "a",
+        "month": 38,
+        "value": 98.0537,
+        "scope": "original"
+      },
+      {
+        "id": "b-38",
+        "revision": 1,
+        "released_at": "2024-04-27",
+        "series": "b",
+        "month": 38,
+        "value": 168.594,
+        "scope": "original"
+      },
+      {
+        "id": "c-38",
+        "revision": 1,
+        "released_at": "2024-04-27",
+        "series": "c",
+        "month": 38,
+        "value": 61.6366,
+        "scope": "original"
+      },
+      {
+        "id": "a-39",
+        "revision": 1,
+        "released_at": "2024-04-30",
+        "series": "a",
+        "month": 39,
+        "value": 97.3166,
+        "scope": "original"
+      },
+      {
+        "id": "b-39",
+        "revision": 1,
+        "released_at": "2024-04-30",
+        "series": "b",
+        "month": 39,
+        "value": 168.4863,
+        "scope": "original"
+      },
+      {
+        "id": "c-39",
+        "revision": 1,
+        "released_at": "2024-04-30",
+        "series": "c",
+        "month": 39,
+        "value": 63.3135,
+        "scope": "original"
+      },
+      {
+        "id": "a-40",
+        "revision": 1,
+        "released_at": "2024-05-03",
+        "series": "a",
+        "month": 40,
+        "value": 95.2204,
+        "scope": "original"
+      },
+      {
+        "id": "b-40",
+        "revision": 1,
+        "released_at": "2024-05-03",
+        "series": "b",
+        "month": 40,
+        "value": 169.2602,
+        "scope": "original"
+      },
+      {
+        "id": "c-40",
+        "revision": 1,
+        "released_at": "2024-05-03",
+        "series": "c",
+        "month": 40,
+        "value": 63.0382,
+        "scope": "original"
+      },
+      {
+        "id": "a-41",
+        "revision": 1,
+        "released_at": "2024-05-06",
+        "series": "a",
+        "month": 41,
+        "value": 87.9754,
+        "scope": "original"
+      },
+      {
+        "id": "b-41",
+        "revision": 1,
+        "released_at": "2024-05-06",
+        "series": "b",
+        "month": 41,
+        "value": 163.6433,
+        "scope": "original"
+      },
+      {
+        "id": "c-41",
+        "revision": 1,
+        "released_at": "2024-05-06",
+        "series": "c",
+        "month": 41,
+        "value": 59.7708,
+        "scope": "original"
+      },
+      {
+        "id": "a-42",
+        "revision": 1,
+        "released_at": "2024-05-09",
+        "series": "a",
+        "month": 42,
+        "value": 89.9031,
+        "scope": "original"
+      },
+      {
+        "id": "b-42",
+        "revision": 1,
+        "released_at": "2024-05-09",
+        "series": "b",
+        "month": 42,
+        "value": 167.0685,
+        "scope": "original"
+      },
+      {
+        "id": "c-42",
+        "revision": 1,
+        "released_at": "2024-05-09",
+        "series": "c",
+        "month": 42,
+        "value": 60.8082,
+        "scope": "original"
+      },
+      {
+        "id": "a-43",
+        "revision": 1,
+        "released_at": "2024-05-12",
+        "series": "a",
+        "month": 43,
+        "value": 89.0365,
+        "scope": "original"
+      },
+      {
+        "id": "b-43",
+        "revision": 1,
+        "released_at": "2024-05-12",
+        "series": "b",
+        "month": 43,
+        "value": 162.521,
+        "scope": "original"
+      },
+      {
+        "id": "c-43",
+        "revision": 1,
+        "released_at": "2024-05-12",
+        "series": "c",
+        "month": 43,
+        "value": 60.8414,
+        "scope": "original"
+      },
+      {
+        "id": "a-44",
+        "revision": 1,
+        "released_at": "2024-05-15",
+        "series": "a",
+        "month": 44,
+        "value": 88.3444,
+        "scope": "original"
+      },
+      {
+        "id": "b-44",
+        "revision": 1,
+        "released_at": "2024-05-15",
+        "series": "b",
+        "month": 44,
+        "value": 157.2684,
+        "scope": "original"
+      },
+      {
+        "id": "c-44",
+        "revision": 1,
+        "released_at": "2024-05-15",
+        "series": "c",
+        "month": 44,
+        "value": 56.5814,
+        "scope": "original"
+      },
+      {
+        "id": "a-45",
+        "revision": 1,
+        "released_at": "2024-05-18",
+        "series": "a",
+        "month": 45,
+        "value": 89.1666,
+        "scope": "original"
+      },
+      {
+        "id": "b-45",
+        "revision": 1,
+        "released_at": "2024-05-18",
+        "series": "b",
+        "month": 45,
+        "value": 164.2561,
+        "scope": "original"
+      },
+      {
+        "id": "c-45",
+        "revision": 1,
+        "released_at": "2024-05-18",
+        "series": "c",
+        "month": 45,
+        "value": 59.4923,
+        "scope": "original"
+      },
+      {
+        "id": "a-46",
+        "revision": 1,
+        "released_at": "2024-05-21",
+        "series": "a",
+        "month": 46,
+        "value": 89.8792,
+        "scope": "original"
+      },
+      {
+        "id": "b-46",
+        "revision": 1,
+        "released_at": "2024-05-21",
+        "series": "b",
+        "month": 46,
+        "value": 163.8999,
+        "scope": "original"
+      },
+      {
+        "id": "c-46",
+        "revision": 1,
+        "released_at": "2024-05-21",
+        "series": "c",
+        "month": 46,
+        "value": 60.4943,
+        "scope": "original"
+      },
+      {
+        "id": "a-47",
+        "revision": 1,
+        "released_at": "2024-05-24",
+        "series": "a",
+        "month": 47,
+        "value": 91.9717,
+        "scope": "original"
+      },
+      {
+        "id": "b-47",
+        "revision": 1,
+        "released_at": "2024-05-24",
+        "series": "b",
+        "month": 47,
+        "value": 163.0035,
+        "scope": "original"
+      },
+      {
+        "id": "c-47",
+        "revision": 1,
+        "released_at": "2024-05-24",
+        "series": "c",
+        "month": 47,
+        "value": 55.4534,
+        "scope": "original"
+      },
+      {
+        "id": "a-48",
+        "revision": 1,
+        "released_at": "2024-05-27",
+        "series": "a",
+        "month": 48,
+        "value": 87.9757,
+        "scope": "original"
+      },
+      {
+        "id": "a-48",
+        "revision": 2,
+        "released_at": "2024-06-13",
+        "series": "a",
+        "month": 48,
+        "value": 90.1751,
+        "scope": "original"
+      },
+      {
+        "id": "b-48",
+        "revision": 1,
+        "released_at": "2024-05-27",
+        "series": "b",
+        "month": 48,
+        "value": 158.061,
+        "scope": "original"
+      },
+      {
+        "id": "b-48",
+        "revision": 2,
+        "released_at": "2024-06-13",
+        "series": "b",
+        "month": 48,
+        "value": 162.0125,
+        "scope": "original"
+      },
+      {
+        "id": "c-48",
+        "revision": 1,
+        "released_at": "2024-05-27",
+        "series": "c",
+        "month": 48,
+        "value": 62.8091,
+        "scope": "expanded"
+      },
+      {
+        "id": "c-48",
+        "revision": 2,
+        "released_at": "2024-06-13",
+        "series": "c",
+        "month": 48,
+        "value": 64.3793,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-49",
+        "revision": 1,
+        "released_at": "2024-05-30",
+        "series": "a",
+        "month": 49,
+        "value": 92.2103,
+        "scope": "original"
+      },
+      {
+        "id": "b-49",
+        "revision": 1,
+        "released_at": "2024-05-30",
+        "series": "b",
+        "month": 49,
+        "value": 157.665,
+        "scope": "original"
+      },
+      {
+        "id": "c-49",
+        "revision": 1,
+        "released_at": "2024-05-30",
+        "series": "c",
+        "month": 49,
+        "value": 65.1561,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-50",
+        "revision": 1,
+        "released_at": "2024-06-02",
+        "series": "a",
+        "month": 50,
+        "value": 91.4465,
+        "scope": "original"
+      },
+      {
+        "id": "b-50",
+        "revision": 1,
+        "released_at": "2024-06-02",
+        "series": "b",
+        "month": 50,
+        "value": 167.0237,
+        "scope": "original"
+      },
+      {
+        "id": "c-50",
+        "revision": 1,
+        "released_at": "2024-06-02",
+        "series": "c",
+        "month": 50,
+        "value": 68.4457,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-51",
+        "revision": 1,
+        "released_at": "2024-06-05",
+        "series": "a",
+        "month": 51,
+        "value": 94.2543,
+        "scope": "original"
+      },
+      {
+        "id": "b-51",
+        "revision": 1,
+        "released_at": "2024-06-05",
+        "series": "b",
+        "month": 51,
+        "value": 165.863,
+        "scope": "original"
+      },
+      {
+        "id": "c-51",
+        "revision": 1,
+        "released_at": "2024-06-05",
+        "series": "c",
+        "month": 51,
+        "value": 67.3103,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-52",
+        "revision": 1,
+        "released_at": "2024-06-08",
+        "series": "a",
+        "month": 52,
+        "value": 92.3302,
+        "scope": "original"
+      },
+      {
+        "id": "b-52",
+        "revision": 1,
+        "released_at": "2024-06-08",
+        "series": "b",
+        "month": 52,
+        "value": 162.7349,
+        "scope": "original"
+      },
+      {
+        "id": "c-52",
+        "revision": 1,
+        "released_at": "2024-06-08",
+        "series": "c",
+        "month": 52,
+        "value": 71.7717,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-53",
+        "revision": 1,
+        "released_at": "2024-06-11",
+        "series": "a",
+        "month": 53,
+        "value": 88.2801,
+        "scope": "original"
+      },
+      {
+        "id": "b-53",
+        "revision": 1,
+        "released_at": "2024-06-11",
+        "series": "b",
+        "month": 53,
+        "value": 166.5397,
+        "scope": "original"
+      },
+      {
+        "id": "c-53",
+        "revision": 1,
+        "released_at": "2024-06-11",
+        "series": "c",
+        "month": 53,
+        "value": 67.4814,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-54",
+        "revision": 1,
+        "released_at": "2024-06-14",
+        "series": "a",
+        "month": 54,
+        "value": 94.5807,
+        "scope": "original"
+      },
+      {
+        "id": "b-54",
+        "revision": 1,
+        "released_at": "2024-06-14",
+        "series": "b",
+        "month": 54,
+        "value": 161.2557,
+        "scope": "original"
+      },
+      {
+        "id": "c-54",
+        "revision": 1,
+        "released_at": "2024-06-14",
+        "series": "c",
+        "month": 54,
+        "value": 68.8532,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-55",
+        "revision": 1,
+        "released_at": "2024-06-17",
+        "series": "a",
+        "month": 55,
+        "value": 93.8919,
+        "scope": "original"
+      },
+      {
+        "id": "b-55",
+        "revision": 1,
+        "released_at": "2024-06-17",
+        "series": "b",
+        "month": 55,
+        "value": 170.4731,
+        "scope": "original"
+      },
+      {
+        "id": "c-55",
+        "revision": 1,
+        "released_at": "2024-06-17",
+        "series": "c",
+        "month": 55,
+        "value": 75.1167,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-56",
+        "revision": 1,
+        "released_at": "2024-06-20",
+        "series": "a",
+        "month": 56,
+        "value": 100.411,
+        "scope": "original"
+      },
+      {
+        "id": "b-56",
+        "revision": 1,
+        "released_at": "2024-06-20",
+        "series": "b",
+        "month": 56,
+        "value": 174.8875,
+        "scope": "original"
+      },
+      {
+        "id": "c-56",
+        "revision": 1,
+        "released_at": "2024-06-20",
+        "series": "c",
+        "month": 56,
+        "value": 74.0643,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-57",
+        "revision": 1,
+        "released_at": "2024-06-23",
+        "series": "a",
+        "month": 57,
+        "value": 100.1477,
+        "scope": "original"
+      },
+      {
+        "id": "b-57",
+        "revision": 1,
+        "released_at": "2024-06-23",
+        "series": "b",
+        "month": 57,
+        "value": 182.8355,
+        "scope": "original"
+      },
+      {
+        "id": "c-57",
+        "revision": 1,
+        "released_at": "2024-06-23",
+        "series": "c",
+        "month": 57,
+        "value": 78.3597,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-58",
+        "revision": 1,
+        "released_at": "2024-06-26",
+        "series": "a",
+        "month": 58,
+        "value": 102.7311,
+        "scope": "original"
+      },
+      {
+        "id": "b-58",
+        "revision": 1,
+        "released_at": "2024-06-26",
+        "series": "b",
+        "month": 58,
+        "value": 185.0601,
+        "scope": "original"
+      },
+      {
+        "id": "c-58",
+        "revision": 1,
+        "released_at": "2024-06-26",
+        "series": "c",
+        "month": 58,
+        "value": 74.3064,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-59",
+        "revision": 1,
+        "released_at": "2024-06-29",
+        "series": "a",
+        "month": 59,
+        "value": 103.6903,
+        "scope": "original"
+      },
+      {
+        "id": "b-59",
+        "revision": 1,
+        "released_at": "2024-06-29",
+        "series": "b",
+        "month": 59,
+        "value": 183.9388,
+        "scope": "original"
+      },
+      {
+        "id": "c-59",
+        "revision": 1,
+        "released_at": "2024-06-29",
+        "series": "c",
+        "month": 59,
+        "value": 73.676,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-60",
+        "revision": 1,
+        "released_at": "2024-07-02",
+        "series": "a",
+        "month": 60,
+        "value": 110.0619,
+        "scope": "original"
+      },
+      {
+        "id": "a-60",
+        "revision": 2,
+        "released_at": "2024-07-19",
+        "series": "a",
+        "month": 60,
+        "value": 112.8134,
+        "scope": "original"
+      },
+      {
+        "id": "b-60",
+        "revision": 1,
+        "released_at": "2024-07-02",
+        "series": "b",
+        "month": 60,
+        "value": 194.8309,
+        "scope": "original"
+      },
+      {
+        "id": "b-60",
+        "revision": 2,
+        "released_at": "2024-07-19",
+        "series": "b",
+        "month": 60,
+        "value": 199.7016,
+        "scope": "original"
+      },
+      {
+        "id": "c-60",
+        "revision": 1,
+        "released_at": "2024-07-02",
+        "series": "c",
+        "month": 60,
+        "value": 79.9497,
+        "scope": "expanded"
+      },
+      {
+        "id": "c-60",
+        "revision": 2,
+        "released_at": "2024-07-19",
+        "series": "c",
+        "month": 60,
+        "value": 81.9484,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-61",
+        "revision": 1,
+        "released_at": "2024-07-05",
+        "series": "a",
+        "month": 61,
+        "value": 107.6209,
+        "scope": "original"
+      },
+      {
+        "id": "b-61",
+        "revision": 1,
+        "released_at": "2024-07-05",
+        "series": "b",
+        "month": 61,
+        "value": 196.1336,
+        "scope": "original"
+      },
+      {
+        "id": "c-61",
+        "revision": 1,
+        "released_at": "2024-07-05",
+        "series": "c",
+        "month": 61,
+        "value": 79.2962,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-62",
+        "revision": 1,
+        "released_at": "2024-07-08",
+        "series": "a",
+        "month": 62,
+        "value": 114.1884,
+        "scope": "original"
+      },
+      {
+        "id": "b-62",
+        "revision": 1,
+        "released_at": "2024-07-08",
+        "series": "b",
+        "month": 62,
+        "value": 197.955,
+        "scope": "original"
+      },
+      {
+        "id": "c-62",
+        "revision": 1,
+        "released_at": "2024-07-08",
+        "series": "c",
+        "month": 62,
+        "value": 78.6307,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-63",
+        "revision": 1,
+        "released_at": "2024-07-11",
+        "series": "a",
+        "month": 63,
+        "value": 109.9604,
+        "scope": "original"
+      },
+      {
+        "id": "b-63",
+        "revision": 1,
+        "released_at": "2024-07-11",
+        "series": "b",
+        "month": 63,
+        "value": 198.1294,
+        "scope": "original"
+      },
+      {
+        "id": "c-63",
+        "revision": 1,
+        "released_at": "2024-07-11",
+        "series": "c",
+        "month": 63,
+        "value": 86.1248,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-64",
+        "revision": 1,
+        "released_at": "2024-07-14",
+        "series": "a",
+        "month": 64,
+        "value": 108.4659,
+        "scope": "original"
+      },
+      {
+        "id": "b-64",
+        "revision": 1,
+        "released_at": "2024-07-14",
+        "series": "b",
+        "month": 64,
+        "value": 196.8611,
+        "scope": "original"
+      },
+      {
+        "id": "c-64",
+        "revision": 1,
+        "released_at": "2024-07-14",
+        "series": "c",
+        "month": 64,
+        "value": 79.7003,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-65",
+        "revision": 1,
+        "released_at": "2024-07-17",
+        "series": "a",
+        "month": 65,
+        "value": 113.2422,
+        "scope": "original"
+      },
+      {
+        "id": "b-65",
+        "revision": 1,
+        "released_at": "2024-07-17",
+        "series": "b",
+        "month": 65,
+        "value": 201.567,
+        "scope": "original"
+      },
+      {
+        "id": "c-65",
+        "revision": 1,
+        "released_at": "2024-07-17",
+        "series": "c",
+        "month": 65,
+        "value": 82.7984,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-66",
+        "revision": 1,
+        "released_at": "2024-07-20",
+        "series": "a",
+        "month": 66,
+        "value": 116.2557,
+        "scope": "original"
+      },
+      {
+        "id": "b-66",
+        "revision": 1,
+        "released_at": "2024-07-20",
+        "series": "b",
+        "month": 66,
+        "value": 202.8587,
+        "scope": "original"
+      },
+      {
+        "id": "c-66",
+        "revision": 1,
+        "released_at": "2024-07-20",
+        "series": "c",
+        "month": 66,
+        "value": 82.2139,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-67",
+        "revision": 1,
+        "released_at": "2024-07-23",
+        "series": "a",
+        "month": 67,
+        "value": 108.9492,
+        "scope": "original"
+      },
+      {
+        "id": "b-67",
+        "revision": 1,
+        "released_at": "2024-07-23",
+        "series": "b",
+        "month": 67,
+        "value": 204.2164,
+        "scope": "original"
+      },
+      {
+        "id": "c-67",
+        "revision": 1,
+        "released_at": "2024-07-23",
+        "series": "c",
+        "month": 67,
+        "value": 87.6575,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-68",
+        "revision": 1,
+        "released_at": "2024-07-26",
+        "series": "a",
+        "month": 68,
+        "value": 114.5895,
+        "scope": "original"
+      },
+      {
+        "id": "b-68",
+        "revision": 1,
+        "released_at": "2024-07-26",
+        "series": "b",
+        "month": 68,
+        "value": 199.237,
+        "scope": "original"
+      },
+      {
+        "id": "c-68",
+        "revision": 1,
+        "released_at": "2024-07-26",
+        "series": "c",
+        "month": 68,
+        "value": 78.1539,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-69",
+        "revision": 1,
+        "released_at": "2024-07-29",
+        "series": "a",
+        "month": 69,
+        "value": 103.6205,
+        "scope": "original"
+      },
+      {
+        "id": "b-69",
+        "revision": 1,
+        "released_at": "2024-07-29",
+        "series": "b",
+        "month": 69,
+        "value": 188.7682,
+        "scope": "original"
+      },
+      {
+        "id": "c-69",
+        "revision": 1,
+        "released_at": "2024-07-29",
+        "series": "c",
+        "month": 69,
+        "value": 77.0419,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-70",
+        "revision": 1,
+        "released_at": "2024-08-01",
+        "series": "a",
+        "month": 70,
+        "value": 104.8138,
+        "scope": "original"
+      },
+      {
+        "id": "b-70",
+        "revision": 1,
+        "released_at": "2024-08-01",
+        "series": "b",
+        "month": 70,
+        "value": 187.8132,
+        "scope": "original"
+      },
+      {
+        "id": "c-70",
+        "revision": 1,
+        "released_at": "2024-08-01",
+        "series": "c",
+        "month": 70,
+        "value": 73.75,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-71",
+        "revision": 1,
+        "released_at": "2024-08-04",
+        "series": "a",
+        "month": 71,
+        "value": 101.6413,
+        "scope": "original"
+      },
+      {
+        "id": "b-71",
+        "revision": 1,
+        "released_at": "2024-08-04",
+        "series": "b",
+        "month": 71,
+        "value": 191.2129,
+        "scope": "original"
+      },
+      {
+        "id": "c-71",
+        "revision": 1,
+        "released_at": "2024-08-04",
+        "series": "c",
+        "month": 71,
+        "value": 76.6231,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-72",
+        "revision": 1,
+        "released_at": "2024-08-07",
+        "series": "a",
+        "month": 72,
+        "value": 109.3307,
+        "scope": "original"
+      },
+      {
+        "id": "a-72",
+        "revision": 2,
+        "released_at": "2024-08-24",
+        "series": "a",
+        "month": 72,
+        "value": 112.064,
+        "scope": "original"
+      },
+      {
+        "id": "b-72",
+        "revision": 1,
+        "released_at": "2024-08-07",
+        "series": "b",
+        "month": 72,
+        "value": 191.201,
+        "scope": "original"
+      },
+      {
+        "id": "b-72",
+        "revision": 2,
+        "released_at": "2024-08-24",
+        "series": "b",
+        "month": 72,
+        "value": 195.981,
+        "scope": "original"
+      },
+      {
+        "id": "c-72",
+        "revision": 1,
+        "released_at": "2024-08-07",
+        "series": "c",
+        "month": 72,
+        "value": 80.2213,
+        "scope": "expanded"
+      },
+      {
+        "id": "c-72",
+        "revision": 2,
+        "released_at": "2024-08-24",
+        "series": "c",
+        "month": 72,
+        "value": 82.2269,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-73",
+        "revision": 1,
+        "released_at": "2024-08-10",
+        "series": "a",
+        "month": 73,
+        "value": 107.843,
+        "scope": "original"
+      },
+      {
+        "id": "b-73",
+        "revision": 1,
+        "released_at": "2024-08-10",
+        "series": "b",
+        "month": 73,
+        "value": 197.2783,
+        "scope": "original"
+      },
+      {
+        "id": "c-73",
+        "revision": 1,
+        "released_at": "2024-08-10",
+        "series": "c",
+        "month": 73,
+        "value": 78.1957,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-74",
+        "revision": 1,
+        "released_at": "2024-08-13",
+        "series": "a",
+        "month": 74,
+        "value": 111.1336,
+        "scope": "original"
+      },
+      {
+        "id": "b-74",
+        "revision": 1,
+        "released_at": "2024-08-13",
+        "series": "b",
+        "month": 74,
+        "value": 201.1024,
+        "scope": "original"
+      },
+      {
+        "id": "c-74",
+        "revision": 1,
+        "released_at": "2024-08-13",
+        "series": "c",
+        "month": 74,
+        "value": 80.6566,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-75",
+        "revision": 1,
+        "released_at": "2024-08-16",
+        "series": "a",
+        "month": 75,
+        "value": 110.4436,
+        "scope": "original"
+      },
+      {
+        "id": "b-75",
+        "revision": 1,
+        "released_at": "2024-08-16",
+        "series": "b",
+        "month": 75,
+        "value": 203.2514,
+        "scope": "original"
+      },
+      {
+        "id": "c-75",
+        "revision": 1,
+        "released_at": "2024-08-16",
+        "series": "c",
+        "month": 75,
+        "value": 81.5374,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-76",
+        "revision": 1,
+        "released_at": "2024-08-19",
+        "series": "a",
+        "month": 76,
+        "value": 114.1587,
+        "scope": "original"
+      },
+      {
+        "id": "b-76",
+        "revision": 1,
+        "released_at": "2024-08-19",
+        "series": "b",
+        "month": 76,
+        "value": 200.6898,
+        "scope": "original"
+      },
+      {
+        "id": "c-76",
+        "revision": 1,
+        "released_at": "2024-08-19",
+        "series": "c",
+        "month": 76,
+        "value": 82.5864,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-77",
+        "revision": 1,
+        "released_at": "2024-08-22",
+        "series": "a",
+        "month": 77,
+        "value": 114.2755,
+        "scope": "original"
+      },
+      {
+        "id": "b-77",
+        "revision": 1,
+        "released_at": "2024-08-22",
+        "series": "b",
+        "month": 77,
+        "value": 205.6873,
+        "scope": "original"
+      },
+      {
+        "id": "c-77",
+        "revision": 1,
+        "released_at": "2024-08-22",
+        "series": "c",
+        "month": 77,
+        "value": 82.7459,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-78",
+        "revision": 1,
+        "released_at": "2024-08-25",
+        "series": "a",
+        "month": 78,
+        "value": 110.9104,
+        "scope": "original"
+      },
+      {
+        "id": "b-78",
+        "revision": 1,
+        "released_at": "2024-08-25",
+        "series": "b",
+        "month": 78,
+        "value": 204.3979,
+        "scope": "original"
+      },
+      {
+        "id": "c-78",
+        "revision": 1,
+        "released_at": "2024-08-25",
+        "series": "c",
+        "month": 78,
+        "value": 79.232,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-79",
+        "revision": 1,
+        "released_at": "2024-08-28",
+        "series": "a",
+        "month": 79,
+        "value": 115.6913,
+        "scope": "original"
+      },
+      {
+        "id": "b-79",
+        "revision": 1,
+        "released_at": "2024-08-28",
+        "series": "b",
+        "month": 79,
+        "value": 203.2743,
+        "scope": "original"
+      },
+      {
+        "id": "c-79",
+        "revision": 1,
+        "released_at": "2024-08-28",
+        "series": "c",
+        "month": 79,
+        "value": 84.8618,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-80",
+        "revision": 1,
+        "released_at": "2024-08-31",
+        "series": "a",
+        "month": 80,
+        "value": 114.387,
+        "scope": "original"
+      },
+      {
+        "id": "b-80",
+        "revision": 1,
+        "released_at": "2024-08-31",
+        "series": "b",
+        "month": 80,
+        "value": 203.0089,
+        "scope": "original"
+      },
+      {
+        "id": "c-80",
+        "revision": 1,
+        "released_at": "2024-08-31",
+        "series": "c",
+        "month": 80,
+        "value": 87.7872,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-81",
+        "revision": 1,
+        "released_at": "2024-09-03",
+        "series": "a",
+        "month": 81,
+        "value": 110.8834,
+        "scope": "original"
+      },
+      {
+        "id": "b-81",
+        "revision": 1,
+        "released_at": "2024-09-03",
+        "series": "b",
+        "month": 81,
+        "value": 204.9115,
+        "scope": "original"
+      },
+      {
+        "id": "c-81",
+        "revision": 1,
+        "released_at": "2024-09-03",
+        "series": "c",
+        "month": 81,
+        "value": 83.8741,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-82",
+        "revision": 1,
+        "released_at": "2024-09-06",
+        "series": "a",
+        "month": 82,
+        "value": 115.0843,
+        "scope": "original"
+      },
+      {
+        "id": "b-82",
+        "revision": 1,
+        "released_at": "2024-09-06",
+        "series": "b",
+        "month": 82,
+        "value": 199.7007,
+        "scope": "original"
+      },
+      {
+        "id": "c-82",
+        "revision": 1,
+        "released_at": "2024-09-06",
+        "series": "c",
+        "month": 82,
+        "value": 81.2188,
+        "scope": "expanded"
+      },
+      {
+        "id": "a-83",
+        "revision": 1,
+        "released_at": "2024-09-09",
+        "series": "a",
+        "month": 83,
+        "value": 107.1477,
+        "scope": "original"
+      },
+      {
+        "id": "b-83",
+        "revision": 1,
+        "released_at": "2024-09-09",
+        "series": "b",
+        "month": 83,
+        "value": 191.8274,
+        "scope": "original"
+      },
+      {
+        "id": "c-83",
+        "revision": 1,
+        "released_at": "2024-09-09",
+        "series": "c",
+        "month": 83,
+        "value": 78.2529,
+        "scope": "expanded"
+      }
+    ],
+    "conversions": [
+      {
+        "id": "a-0",
+        "revision": 1,
+        "released_at": "2024-01-03",
+        "series": "a",
+        "month": 0,
+        "cny_per_unit": 1,
+        "price_index": 100.0
+      },
+      {
+        "id": "b-0",
+        "revision": 1,
+        "released_at": "2024-01-03",
+        "series": "b",
+        "month": 0,
+        "cny_per_unit": 7.0,
+        "price_index": 100.0
+      },
+      {
+        "id": "c-0",
+        "revision": 1,
+        "released_at": "2024-01-03",
+        "series": "c",
+        "month": 0,
+        "cny_per_unit": 8.1,
+        "price_index": 100.0
+      },
+      {
+        "id": "a-1",
+        "revision": 1,
+        "released_at": "2024-01-06",
+        "series": "a",
+        "month": 1,
+        "cny_per_unit": 1,
+        "price_index": 100.2
+      },
+      {
+        "id": "b-1",
+        "revision": 1,
+        "released_at": "2024-01-06",
+        "series": "b",
+        "month": 1,
+        "cny_per_unit": 7.059600799238519,
+        "price_index": 100.2
+      },
+      {
+        "id": "c-1",
+        "revision": 1,
+        "released_at": "2024-01-06",
+        "series": "c",
+        "month": 1,
+        "cny_per_unit": 8.096916754269445,
+        "price_index": 100.2
+      },
+      {
+        "id": "a-2",
+        "revision": 1,
+        "released_at": "2024-01-09",
+        "series": "a",
+        "month": 2,
+        "cny_per_unit": 1,
+        "price_index": 100.4
+      },
+      {
+        "id": "b-2",
+        "revision": 1,
+        "released_at": "2024-01-09",
+        "series": "b",
+        "month": 2,
+        "cny_per_unit": 7.1168255026925955,
+        "price_index": 100.4
+      },
+      {
+        "id": "c-2",
+        "revision": 1,
+        "released_at": "2024-01-09",
+        "series": "c",
+        "month": 2,
+        "cny_per_unit": 8.087705042694724,
+        "price_index": 100.4
+      },
+      {
+        "id": "a-3",
+        "revision": 1,
+        "released_at": "2024-01-12",
+        "series": "a",
+        "month": 3,
+        "cny_per_unit": 1,
+        "price_index": 100.6
+      },
+      {
+        "id": "b-3",
+        "revision": 1,
+        "released_at": "2024-01-12",
+        "series": "b",
+        "month": 3,
+        "cny_per_unit": 7.169392742018511,
+        "price_index": 100.6
+      },
+      {
+        "id": "c-3",
+        "revision": 1,
+        "released_at": "2024-01-12",
+        "series": "c",
+        "month": 3,
+        "cny_per_unit": 8.072478473157368,
+        "price_index": 100.6
+      },
+      {
+        "id": "a-4",
+        "revision": 1,
+        "released_at": "2024-01-15",
+        "series": "a",
+        "month": 4,
+        "cny_per_unit": 1,
+        "price_index": 100.8
+      },
+      {
+        "id": "b-4",
+        "revision": 1,
+        "released_at": "2024-01-15",
+        "series": "b",
+        "month": 4,
+        "cny_per_unit": 7.215206827269856,
+        "price_index": 100.8
+      },
+      {
+        "id": "c-4",
+        "revision": 1,
+        "released_at": "2024-01-15",
+        "series": "c",
+        "month": 4,
+        "cny_per_unit": 8.051424834679448,
+        "price_index": 100.8
+      },
+      {
+        "id": "a-5",
+        "revision": 1,
+        "released_at": "2024-01-18",
+        "series": "a",
+        "month": 5,
+        "cny_per_unit": 1,
+        "price_index": 101.0
+      },
+      {
+        "id": "b-5",
+        "revision": 1,
+        "released_at": "2024-01-18",
+        "series": "b",
+        "month": 5,
+        "cny_per_unit": 7.2524412954423685,
+        "price_index": 101.0
+      },
+      {
+        "id": "c-5",
+        "revision": 1,
+        "released_at": "2024-01-18",
+        "series": "c",
+        "month": 5,
+        "cny_per_unit": 8.024803781424763,
+        "price_index": 101.0
+      },
+      {
+        "id": "a-6",
+        "revision": 1,
+        "released_at": "2024-01-21",
+        "series": "a",
+        "month": 6,
+        "cny_per_unit": 1,
+        "price_index": 101.2
+      },
+      {
+        "id": "b-6",
+        "revision": 1,
+        "released_at": "2024-01-21",
+        "series": "b",
+        "month": 6,
+        "cny_per_unit": 7.279611725790168,
+        "price_index": 101.2
+      },
+      {
+        "id": "c-6",
+        "revision": 1,
+        "released_at": "2024-01-21",
+        "series": "c",
+        "month": 6,
+        "cny_per_unit": 7.992943630388473,
+        "price_index": 101.2
+      },
+      {
+        "id": "a-7",
+        "revision": 1,
+        "released_at": "2024-01-24",
+        "series": "a",
+        "month": 7,
+        "cny_per_unit": 1,
+        "price_index": 101.4
+      },
+      {
+        "id": "b-7",
+        "revision": 1,
+        "released_at": "2024-01-24",
+        "series": "b",
+        "month": 7,
+        "cny_per_unit": 7.295634918996538,
+        "price_index": 101.4
+      },
+      {
+        "id": "c-7",
+        "revision": 1,
+        "released_at": "2024-01-24",
+        "series": "c",
+        "month": 7,
+        "cny_per_unit": 7.956237312269209,
+        "price_index": 101.4
+      },
+      {
+        "id": "a-8",
+        "revision": 1,
+        "released_at": "2024-01-27",
+        "series": "a",
+        "month": 8,
+        "cny_per_unit": 1,
+        "price_index": 101.6
+      },
+      {
+        "id": "b-8",
+        "revision": 1,
+        "released_at": "2024-01-27",
+        "series": "b",
+        "month": 8,
+        "cny_per_unit": 7.2998720809124515,
+        "price_index": 101.6
+      },
+      {
+        "id": "c-8",
+        "revision": 1,
+        "released_at": "2024-01-27",
+        "series": "c",
+        "month": 8,
+        "cny_per_unit": 7.915137525461472,
+        "price_index": 101.6
+      },
+      {
+        "id": "a-9",
+        "revision": 1,
+        "released_at": "2024-01-30",
+        "series": "a",
+        "month": 9,
+        "cny_per_unit": 1,
+        "price_index": 101.8
+      },
+      {
+        "id": "b-9",
+        "revision": 1,
+        "released_at": "2024-01-30",
+        "series": "b",
+        "month": 9,
+        "cny_per_unit": 7.2921542892634585,
+        "price_index": 101.8
+      },
+      {
+        "id": "c-9",
+        "revision": 1,
+        "released_at": "2024-01-30",
+        "series": "c",
+        "month": 9,
+        "cny_per_unit": 7.87015115293407,
+        "price_index": 101.8
+      },
+      {
+        "id": "a-10",
+        "revision": 1,
+        "released_at": "2024-02-02",
+        "series": "a",
+        "month": 10,
+        "cny_per_unit": 1,
+        "price_index": 102.0
+      },
+      {
+        "id": "b-10",
+        "revision": 1,
+        "released_at": "2024-02-02",
+        "series": "b",
+        "month": 10,
+        "cny_per_unit": 7.272789228047705,
+        "price_index": 102.0
+      },
+      {
+        "id": "c-10",
+        "revision": 1,
+        "released_at": "2024-02-02",
+        "series": "c",
+        "month": 10,
+        "cny_per_unit": 7.821833010851114,
+        "price_index": 102.0
+      },
+      {
+        "id": "a-11",
+        "revision": 1,
+        "released_at": "2024-02-05",
+        "series": "a",
+        "month": 11,
+        "cny_per_unit": 1,
+        "price_index": 102.2
+      },
+      {
+        "id": "b-11",
+        "revision": 1,
+        "released_at": "2024-02-05",
+        "series": "b",
+        "month": 11,
+        "cny_per_unit": 7.242548921145877,
+        "price_index": 102.2
+      },
+      {
+        "id": "c-11",
+        "revision": 1,
+        "released_at": "2024-02-05",
+        "series": "c",
+        "month": 11,
+        "cny_per_unit": 7.770779006033748,
+        "price_index": 102.2
+      },
+      {
+        "id": "a-12",
+        "revision": 1,
+        "released_at": "2024-02-08",
+        "series": "a",
+        "month": 12,
+        "cny_per_unit": 1,
+        "price_index": 102.4
+      },
+      {
+        "id": "b-12",
+        "revision": 1,
+        "released_at": "2024-02-08",
+        "series": "b",
+        "month": 12,
+        "cny_per_unit": 7.202638954165345,
+        "price_index": 102.4
+      },
+      {
+        "id": "c-12",
+        "revision": 1,
+        "released_at": "2024-02-08",
+        "series": "c",
+        "month": 12,
+        "cny_per_unit": 7.717618786651494,
+        "price_index": 102.4
+      },
+      {
+        "id": "a-13",
+        "revision": 1,
+        "released_at": "2024-02-11",
+        "series": "a",
+        "month": 13,
+        "cny_per_unit": 1,
+        "price_index": 102.6
+      },
+      {
+        "id": "b-13",
+        "revision": 1,
+        "released_at": "2024-02-11",
+        "series": "b",
+        "month": 13,
+        "cny_per_unit": 7.154650411546439,
+        "price_index": 102.6
+      },
+      {
+        "id": "c-13",
+        "revision": 1,
+        "released_at": "2024-02-11",
+        "series": "c",
+        "month": 13,
+        "cny_per_unit": 7.663007976782136,
+        "price_index": 102.6
+      },
+      {
+        "id": "a-14",
+        "revision": 1,
+        "released_at": "2024-02-14",
+        "series": "a",
+        "month": 14,
+        "cny_per_unit": 1,
+        "price_index": 102.8
+      },
+      {
+        "id": "b-14",
+        "revision": 1,
+        "released_at": "2024-02-14",
+        "series": "b",
+        "month": 14,
+        "cny_per_unit": 7.100496445046772,
+        "price_index": 102.8
+      },
+      {
+        "id": "c-14",
+        "revision": 1,
+        "released_at": "2024-02-14",
+        "series": "c",
+        "month": 14,
+        "cny_per_unit": 7.60762009061116,
+        "price_index": 102.8
+      },
+      {
+        "id": "a-15",
+        "revision": 1,
+        "released_at": "2024-02-17",
+        "series": "a",
+        "month": 15,
+        "cny_per_unit": 1,
+        "price_index": 103.0
+      },
+      {
+        "id": "b-15",
+        "revision": 1,
+        "released_at": "2024-02-17",
+        "series": "b",
+        "month": 15,
+        "cny_per_unit": 7.04233600241796,
+        "price_index": 103.0
+      },
+      {
+        "id": "c-15",
+        "revision": 1,
+        "released_at": "2024-02-17",
+        "series": "c",
+        "month": 15,
+        "cny_per_unit": 7.552138225992811,
+        "price_index": 103.0
+      },
+      {
+        "id": "a-16",
+        "revision": 1,
+        "released_at": "2024-02-20",
+        "series": "a",
+        "month": 16,
+        "cny_per_unit": 1,
+        "price_index": 103.2
+      },
+      {
+        "id": "b-16",
+        "revision": 1,
+        "released_at": "2024-02-20",
+        "series": "b",
+        "month": 16,
+        "cny_per_unit": 6.982487756971726,
+        "price_index": 103.2
+      },
+      {
+        "id": "c-16",
+        "revision": 1,
+        "released_at": "2024-02-20",
+        "series": "c",
+        "month": 16,
+        "cny_per_unit": 7.497246639815921,
+        "price_index": 103.2
+      },
+      {
+        "id": "a-17",
+        "revision": 1,
+        "released_at": "2024-02-23",
+        "series": "a",
+        "month": 17,
+        "cny_per_unit": 1,
+        "price_index": 103.4
+      },
+      {
+        "id": "b-17",
+        "revision": 1,
+        "released_at": "2024-02-23",
+        "series": "b",
+        "month": 17,
+        "cny_per_unit": 6.923337669391951,
+        "price_index": 103.4
+      },
+      {
+        "id": "c-17",
+        "revision": 1,
+        "released_at": "2024-02-23",
+        "series": "c",
+        "month": 17,
+        "cny_per_unit": 7.44362230907538,
+        "price_index": 103.4
+      },
+      {
+        "id": "a-18",
+        "revision": 1,
+        "released_at": "2024-02-26",
+        "series": "a",
+        "month": 18,
+        "cny_per_unit": 1,
+        "price_index": 103.6
+      },
+      {
+        "id": "b-18",
+        "revision": 1,
+        "released_at": "2024-02-26",
+        "series": "b",
+        "month": 18,
+        "cny_per_unit": 6.8672438670115445,
+        "price_index": 103.6
+      },
+      {
+        "id": "c-18",
+        "revision": 1,
+        "released_at": "2024-02-26",
+        "series": "c",
+        "month": 18,
+        "cny_per_unit": 7.391926581726429,
+        "price_index": 103.6
+      },
+      {
+        "id": "a-19",
+        "revision": 1,
+        "released_at": "2024-02-29",
+        "series": "a",
+        "month": 19,
+        "cny_per_unit": 1,
+        "price_index": 103.8
+      },
+      {
+        "id": "b-19",
+        "revision": 1,
+        "released_at": "2024-02-29",
+        "series": "b",
+        "month": 19,
+        "cny_per_unit": 6.816442632717185,
+        "price_index": 103.8
+      },
+      {
+        "id": "c-19",
+        "revision": 1,
+        "released_at": "2024-02-29",
+        "series": "c",
+        "month": 19,
+        "cny_per_unit": 7.342797020291612,
+        "price_index": 103.8
+      },
+      {
+        "id": "a-20",
+        "revision": 1,
+        "released_at": "2024-03-03",
+        "series": "a",
+        "month": 20,
+        "cny_per_unit": 1,
+        "price_index": 104.0
+      },
+      {
+        "id": "b-20",
+        "revision": 1,
+        "released_at": "2024-03-03",
+        "series": "b",
+        "month": 20,
+        "cny_per_unit": 6.772959251407622,
+        "price_index": 104.0
+      },
+      {
+        "id": "c-20",
+        "revision": 1,
+        "released_at": "2024-03-03",
+        "series": "c",
+        "month": 20,
+        "cny_per_unit": 7.296839538813082,
+        "price_index": 104.0
+      },
+      {
+        "id": "a-21",
+        "revision": 1,
+        "released_at": "2024-03-06",
+        "series": "a",
+        "month": 21,
+        "cny_per_unit": 1,
+        "price_index": 104.2
+      },
+      {
+        "id": "b-21",
+        "revision": 1,
+        "released_at": "2024-03-06",
+        "series": "b",
+        "month": 21,
+        "cny_per_unit": 6.738527268275924,
+        "price_index": 104.2
+      },
+      {
+        "id": "c-21",
+        "revision": 1,
+        "released_at": "2024-03-06",
+        "series": "c",
+        "month": 21,
+        "cny_per_unit": 7.2546209301250615,
+        "price_index": 104.2
+      },
+      {
+        "id": "a-22",
+        "revision": 1,
+        "released_at": "2024-03-09",
+        "series": "a",
+        "month": 22,
+        "cny_per_unit": 1,
+        "price_index": 104.4
+      },
+      {
+        "id": "b-22",
+        "revision": 1,
+        "released_at": "2024-03-09",
+        "series": "b",
+        "month": 22,
+        "cny_per_unit": 6.714519377833145,
+        "price_index": 104.4
+      },
+      {
+        "id": "c-22",
+        "revision": 1,
+        "released_at": "2024-03-09",
+        "series": "c",
+        "month": 22,
+        "cny_per_unit": 7.2166618756075,
+        "price_index": 104.4
+      },
+      {
+        "id": "a-23",
+        "revision": 1,
+        "released_at": "2024-03-12",
+        "series": "a",
+        "month": 23,
+        "cny_per_unit": 1,
+        "price_index": 104.6
+      },
+      {
+        "id": "b-23",
+        "revision": 1,
+        "released_at": "2024-03-12",
+        "series": "b",
+        "month": 23,
+        "cny_per_unit": 6.701892698909961,
+        "price_index": 104.6
+      },
+      {
+        "id": "c-23",
+        "revision": 1,
+        "released_at": "2024-03-12",
+        "series": "c",
+        "month": 23,
+        "cny_per_unit": 7.183430523631505,
+        "price_index": 104.6
+      },
+      {
+        "id": "a-24",
+        "revision": 1,
+        "released_at": "2024-03-15",
+        "series": "a",
+        "month": 24,
+        "cny_per_unit": 1,
+        "price_index": 104.8
+      },
+      {
+        "id": "b-24",
+        "revision": 1,
+        "released_at": "2024-03-15",
+        "series": "b",
+        "month": 24,
+        "cny_per_unit": 6.701150617349247,
+        "price_index": 104.8
+      },
+      {
+        "id": "c-24",
+        "revision": 1,
+        "released_at": "2024-03-15",
+        "series": "c",
+        "month": 24,
+        "cny_per_unit": 7.155336715893479,
+        "price_index": 104.8
+      },
+      {
+        "id": "a-25",
+        "revision": 1,
+        "released_at": "2024-03-18",
+        "series": "a",
+        "month": 25,
+        "cny_per_unit": 1,
+        "price_index": 105.0
+      },
+      {
+        "id": "b-25",
+        "revision": 1,
+        "released_at": "2024-03-18",
+        "series": "b",
+        "month": 25,
+        "cny_per_unit": 6.712322717601058,
+        "price_index": 105.0
+      },
+      {
+        "id": "c-25",
+        "revision": 1,
+        "released_at": "2024-03-18",
+        "series": "c",
+        "month": 25,
+        "cny_per_unit": 7.132726932844475,
+        "price_index": 105.0
+      },
+      {
+        "id": "a-26",
+        "revision": 1,
+        "released_at": "2024-03-21",
+        "series": "a",
+        "month": 26,
+        "cny_per_unit": 1,
+        "price_index": 105.2
+      },
+      {
+        "id": "b-26",
+        "revision": 1,
+        "released_at": "2024-03-21",
+        "series": "b",
+        "month": 26,
+        "cny_per_unit": 6.734963603283954,
+        "price_index": 105.2
+      },
+      {
+        "id": "c-26",
+        "revision": 1,
+        "released_at": "2024-03-21",
+        "series": "c",
+        "month": 26,
+        "cny_per_unit": 7.115880020552713,
+        "price_index": 105.2
+      },
+      {
+        "id": "a-27",
+        "revision": 1,
+        "released_at": "2024-03-24",
+        "series": "a",
+        "month": 27,
+        "cny_per_unit": 1,
+        "price_index": 105.4
+      },
+      {
+        "id": "b-27",
+        "revision": 1,
+        "released_at": "2024-03-24",
+        "series": "b",
+        "month": 27,
+        "cny_per_unit": 6.768170653733204,
+        "price_index": 105.4
+      },
+      {
+        "id": "c-27",
+        "revision": 1,
+        "released_at": "2024-03-24",
+        "series": "c",
+        "month": 27,
+        "cny_per_unit": 7.105003751699777,
+        "price_index": 105.4
+      },
+      {
+        "id": "a-28",
+        "revision": 1,
+        "released_at": "2024-03-27",
+        "series": "a",
+        "month": 28,
+        "cny_per_unit": 1,
+        "price_index": 105.6
+      },
+      {
+        "id": "b-28",
+        "revision": 1,
+        "released_at": "2024-03-27",
+        "series": "b",
+        "month": 28,
+        "cny_per_unit": 6.8106200086383035,
+        "price_index": 105.6
+      },
+      {
+        "id": "c-28",
+        "revision": 1,
+        "released_at": "2024-03-27",
+        "series": "c",
+        "month": 28,
+        "cny_per_unit": 7.100232263123689,
+        "price_index": 105.6
+      },
+      {
+        "id": "a-29",
+        "revision": 1,
+        "released_at": "2024-03-30",
+        "series": "a",
+        "month": 29,
+        "cny_per_unit": 1,
+        "price_index": 105.8
+      },
+      {
+        "id": "b-29",
+        "revision": 1,
+        "released_at": "2024-03-30",
+        "series": "b",
+        "month": 29,
+        "cny_per_unit": 6.860619346175873,
+        "price_index": 105.8
+      },
+      {
+        "id": "c-29",
+        "revision": 1,
+        "released_at": "2024-03-30",
+        "series": "c",
+        "month": 29,
+        "cny_per_unit": 7.101624401511571,
+        "price_index": 105.8
+      },
+      {
+        "id": "a-30",
+        "revision": 1,
+        "released_at": "2024-04-02",
+        "series": "a",
+        "month": 30,
+        "cny_per_unit": 1,
+        "price_index": 106.0
+      },
+      {
+        "id": "b-30",
+        "revision": 1,
+        "released_at": "2024-04-02",
+        "series": "b",
+        "month": 30,
+        "cny_per_unit": 6.916175350540322,
+        "price_index": 106.0
+      },
+      {
+        "id": "c-30",
+        "revision": 1,
+        "released_at": "2024-04-02",
+        "series": "c",
+        "month": 30,
+        "cny_per_unit": 7.10916299764446,
+        "price_index": 106.0
+      },
+      {
+        "id": "a-31",
+        "revision": 1,
+        "released_at": "2024-04-05",
+        "series": "a",
+        "month": 31,
+        "cny_per_unit": 1,
+        "price_index": 106.2
+      },
+      {
+        "id": "b-31",
+        "revision": 1,
+        "released_at": "2024-04-05",
+        "series": "b",
+        "month": 31,
+        "cny_per_unit": 6.975073179154751,
+        "price_index": 106.2
+      },
+      {
+        "id": "c-31",
+        "revision": 1,
+        "released_at": "2024-04-05",
+        "series": "c",
+        "month": 31,
+        "cny_per_unit": 7.1227550781449915,
+        "price_index": 106.2
+      },
+      {
+        "id": "a-32",
+        "revision": 1,
+        "released_at": "2024-04-08",
+        "series": "a",
+        "month": 32,
+        "cny_per_unit": 1,
+        "price_index": 106.4
+      },
+      {
+        "id": "b-32",
+        "revision": 1,
+        "released_at": "2024-04-08",
+        "series": "b",
+        "month": 32,
+        "cny_per_unit": 7.034964761455148,
+        "price_index": 106.4
+      },
+      {
+        "id": "c-32",
+        "revision": 1,
+        "released_at": "2024-04-08",
+        "series": "c",
+        "month": 32,
+        "cny_per_unit": 7.142233012116476,
+        "price_index": 106.4
+      },
+      {
+        "id": "a-33",
+        "revision": 1,
+        "released_at": "2024-04-11",
+        "series": "a",
+        "month": 33,
+        "cny_per_unit": 1,
+        "price_index": 106.6
+      },
+      {
+        "id": "b-33",
+        "revision": 1,
+        "released_at": "2024-04-11",
+        "series": "b",
+        "month": 33,
+        "cny_per_unit": 7.0934624090540135,
+        "price_index": 106.6
+      },
+      {
+        "id": "c-33",
+        "revision": 1,
+        "released_at": "2024-04-11",
+        "series": "c",
+        "month": 33,
+        "cny_per_unit": 7.167356578531882,
+        "price_index": 106.6
+      },
+      {
+        "id": "a-34",
+        "revision": 1,
+        "released_at": "2024-04-14",
+        "series": "a",
+        "month": 34,
+        "cny_per_unit": 1,
+        "price_index": 106.8
+      },
+      {
+        "id": "b-34",
+        "revision": 1,
+        "released_at": "2024-04-14",
+        "series": "b",
+        "month": 34,
+        "cny_per_unit": 7.148234005341583,
+        "price_index": 106.8
+      },
+      {
+        "id": "c-34",
+        "revision": 1,
+        "released_at": "2024-04-14",
+        "series": "c",
+        "month": 34,
+        "cny_per_unit": 7.197815928875663,
+        "price_index": 106.8
+      },
+      {
+        "id": "a-35",
+        "revision": 1,
+        "released_at": "2024-04-17",
+        "series": "a",
+        "month": 35,
+        "cny_per_unit": 1,
+        "price_index": 107.0
+      },
+      {
+        "id": "b-35",
+        "revision": 1,
+        "released_at": "2024-04-17",
+        "series": "b",
+        "month": 35,
+        "cny_per_unit": 7.197095979615637,
+        "price_index": 107.0
+      },
+      {
+        "id": "c-35",
+        "revision": 1,
+        "released_at": "2024-04-17",
+        "series": "c",
+        "month": 35,
+        "cny_per_unit": 7.233235408500208,
+        "price_index": 107.0
+      },
+      {
+        "id": "a-36",
+        "revision": 1,
+        "released_at": "2024-04-20",
+        "series": "a",
+        "month": 36,
+        "cny_per_unit": 1,
+        "price_index": 107.2
+      },
+      {
+        "id": "b-36",
+        "revision": 1,
+        "released_at": "2024-04-20",
+        "series": "b",
+        "month": 36,
+        "cny_per_unit": 7.238100359154746,
+        "price_index": 107.2
+      },
+      {
+        "id": "c-36",
+        "revision": 1,
+        "released_at": "2024-04-20",
+        "series": "c",
+        "month": 36,
+        "cny_per_unit": 7.273178189568194,
+        "price_index": 107.2
+      },
+      {
+        "id": "a-37",
+        "revision": 1,
+        "released_at": "2024-04-23",
+        "series": "a",
+        "month": 37,
+        "cny_per_unit": 1,
+        "price_index": 107.4
+      },
+      {
+        "id": "b-37",
+        "revision": 1,
+        "released_at": "2024-04-23",
+        "series": "b",
+        "month": 37,
+        "cny_per_unit": 7.269612428743488,
+        "price_index": 107.4
+      },
+      {
+        "id": "c-37",
+        "revision": 1,
+        "released_at": "2024-04-23",
+        "series": "c",
+        "month": 37,
+        "cny_per_unit": 7.317151658442842,
+        "price_index": 107.4
+      },
+      {
+        "id": "a-38",
+        "revision": 1,
+        "released_at": "2024-04-26",
+        "series": "a",
+        "month": 38,
+        "cny_per_unit": 1,
+        "price_index": 107.6
+      },
+      {
+        "id": "b-38",
+        "revision": 1,
+        "released_at": "2024-04-26",
+        "series": "b",
+        "month": 38,
+        "cny_per_unit": 7.290375901609446,
+        "price_index": 107.6
+      },
+      {
+        "id": "c-38",
+        "revision": 1,
+        "released_at": "2024-04-26",
+        "series": "c",
+        "month": 38,
+        "cny_per_unit": 7.364613491083493,
+        "price_index": 107.6
+      },
+      {
+        "id": "a-39",
+        "revision": 1,
+        "released_at": "2024-04-29",
+        "series": "a",
+        "month": 39,
+        "cny_per_unit": 1,
+        "price_index": 107.8
+      },
+      {
+        "id": "b-39",
+        "revision": 1,
+        "released_at": "2024-04-29",
+        "series": "b",
+        "month": 39,
+        "cny_per_unit": 7.2995630036123815,
+        "price_index": 107.8
+      },
+      {
+        "id": "c-39",
+        "revision": 1,
+        "released_at": "2024-04-29",
+        "series": "c",
+        "month": 39,
+        "cny_per_unit": 7.41497834151873,
+        "price_index": 107.8
+      },
+      {
+        "id": "a-40",
+        "revision": 1,
+        "released_at": "2024-05-02",
+        "series": "a",
+        "month": 40,
+        "cny_per_unit": 1,
+        "price_index": 108.0
+      },
+      {
+        "id": "b-40",
+        "revision": 1,
+        "released_at": "2024-05-02",
+        "series": "b",
+        "month": 40,
+        "cny_per_unit": 7.296807473987014,
+        "price_index": 108.0
+      },
+      {
+        "id": "c-40",
+        "revision": 1,
+        "released_at": "2024-05-02",
+        "series": "c",
+        "month": 40,
+        "cny_per_unit": 7.467625060908258,
+        "price_index": 108.0
+      },
+      {
+        "id": "a-41",
+        "revision": 1,
+        "released_at": "2024-05-05",
+        "series": "a",
+        "month": 41,
+        "cny_per_unit": 1,
+        "price_index": 108.2
+      },
+      {
+        "id": "b-41",
+        "revision": 1,
+        "released_at": "2024-05-05",
+        "series": "b",
+        "month": 41,
+        "cny_per_unit": 7.282219167003932,
+        "price_index": 108.2
+      },
+      {
+        "id": "c-41",
+        "revision": 1,
+        "released_at": "2024-05-05",
+        "series": "c",
+        "month": 41,
+        "cny_per_unit": 7.521904358160933,
+        "price_index": 108.2
+      },
+      {
+        "id": "a-42",
+        "revision": 1,
+        "released_at": "2024-05-08",
+        "series": "a",
+        "month": 42,
+        "cny_per_unit": 1,
+        "price_index": 108.4
+      },
+      {
+        "id": "b-42",
+        "revision": 1,
+        "released_at": "2024-05-08",
+        "series": "b",
+        "month": 42,
+        "cny_per_unit": 7.256379672426484,
+        "price_index": 108.4
+      },
+      {
+        "id": "c-42",
+        "revision": 1,
+        "released_at": "2024-05-08",
+        "series": "c",
+        "month": 42,
+        "cny_per_unit": 7.57714680763071,
+        "price_index": 108.4
+      },
+      {
+        "id": "a-43",
+        "revision": 1,
+        "released_at": "2024-05-11",
+        "series": "a",
+        "month": 43,
+        "cny_per_unit": 1,
+        "price_index": 108.6
+      },
+      {
+        "id": "b-43",
+        "revision": 1,
+        "released_at": "2024-05-11",
+        "series": "b",
+        "month": 43,
+        "cny_per_unit": 7.220319129362234,
+        "price_index": 108.6
+      },
+      {
+        "id": "c-43",
+        "revision": 1,
+        "released_at": "2024-05-11",
+        "series": "c",
+        "month": 43,
+        "cny_per_unit": 7.632671105131694,
+        "price_index": 108.6
+      },
+      {
+        "id": "a-44",
+        "revision": 1,
+        "released_at": "2024-05-14",
+        "series": "a",
+        "month": 44,
+        "cny_per_unit": 1,
+        "price_index": 108.8
+      },
+      {
+        "id": "b-44",
+        "revision": 1,
+        "released_at": "2024-05-14",
+        "series": "b",
+        "month": 44,
+        "cny_per_unit": 7.175475157867528,
+        "price_index": 108.8
+      },
+      {
+        "id": "c-44",
+        "revision": 1,
+        "released_at": "2024-05-14",
+        "series": "c",
+        "month": 44,
+        "cny_per_unit": 7.687792470451039,
+        "price_index": 108.8
+      },
+      {
+        "id": "a-45",
+        "revision": 1,
+        "released_at": "2024-05-17",
+        "series": "a",
+        "month": 45,
+        "cny_per_unit": 1,
+        "price_index": 109.0
+      },
+      {
+        "id": "b-45",
+        "revision": 1,
+        "released_at": "2024-05-17",
+        "series": "b",
+        "month": 45,
+        "cny_per_unit": 7.123635545572527,
+        "price_index": 109.0
+      },
+      {
+        "id": "c-45",
+        "revision": 1,
+        "released_at": "2024-05-17",
+        "series": "c",
+        "month": 45,
+        "cny_per_unit": 7.741831092731613,
+        "price_index": 109.0
+      },
+      {
+        "id": "a-46",
+        "revision": 1,
+        "released_at": "2024-05-20",
+        "series": "a",
+        "month": 46,
+        "cny_per_unit": 1,
+        "price_index": 109.2
+      },
+      {
+        "id": "b-46",
+        "revision": 1,
+        "released_at": "2024-05-20",
+        "series": "b",
+        "month": 46,
+        "cny_per_unit": 7.0668669742300745,
+        "price_index": 109.2
+      },
+      {
+        "id": "c-46",
+        "revision": 1,
+        "released_at": "2024-05-20",
+        "series": "c",
+        "month": 46,
+        "cny_per_unit": 7.7941205145676875,
+        "price_index": 109.2
+      },
+      {
+        "id": "a-47",
+        "revision": 1,
+        "released_at": "2024-05-23",
+        "series": "a",
+        "month": 47,
+        "cny_per_unit": 1,
+        "price_index": 109.4
+      },
+      {
+        "id": "b-47",
+        "revision": 1,
+        "released_at": "2024-05-23",
+        "series": "b",
+        "month": 47,
+        "cny_per_unit": 7.007432627636008,
+        "price_index": 109.4
+      },
+      {
+        "id": "c-47",
+        "revision": 1,
+        "released_at": "2024-05-23",
+        "series": "c",
+        "month": 47,
+        "cny_per_unit": 7.844015851412748,
+        "price_index": 109.4
+      },
+      {
+        "id": "a-48",
+        "revision": 1,
+        "released_at": "2024-05-26",
+        "series": "a",
+        "month": 48,
+        "cny_per_unit": 1,
+        "price_index": 109.6
+      },
+      {
+        "id": "b-48",
+        "revision": 1,
+        "released_at": "2024-05-26",
+        "series": "b",
+        "month": 48,
+        "cny_per_unit": 6.947701965633106,
+        "price_index": 109.6
+      },
+      {
+        "id": "c-48",
+        "revision": 1,
+        "released_at": "2024-05-26",
+        "series": "c",
+        "month": 48,
+        "cny_per_unit": 7.890901744929585,
+        "price_index": 109.6
+      },
+      {
+        "id": "a-49",
+        "revision": 1,
+        "released_at": "2024-05-29",
+        "series": "a",
+        "month": 49,
+        "cny_per_unit": 1,
+        "price_index": 109.8
+      },
+      {
+        "id": "b-49",
+        "revision": 1,
+        "released_at": "2024-05-29",
+        "series": "b",
+        "month": 49,
+        "cny_per_unit": 6.890056261224421,
+        "price_index": 109.8
+      },
+      {
+        "id": "c-49",
+        "revision": 1,
+        "released_at": "2024-05-29",
+        "series": "c",
+        "month": 49,
+        "cny_per_unit": 7.934199952194162,
+        "price_index": 109.8
+      },
+      {
+        "id": "a-50",
+        "revision": 1,
+        "released_at": "2024-06-01",
+        "series": "a",
+        "month": 50,
+        "cny_per_unit": 1,
+        "price_index": 110.0
+      },
+      {
+        "id": "b-50",
+        "revision": 1,
+        "released_at": "2024-06-01",
+        "series": "b",
+        "month": 50,
+        "cny_per_unit": 6.836793666733189,
+        "price_index": 110.0
+      },
+      {
+        "id": "c-50",
+        "revision": 1,
+        "released_at": "2024-06-01",
+        "series": "c",
+        "month": 50,
+        "cny_per_unit": 7.973376477155724,
+        "price_index": 110.0
+      },
+      {
+        "id": "a-51",
+        "revision": 1,
+        "released_at": "2024-06-04",
+        "series": "a",
+        "month": 51,
+        "cny_per_unit": 1,
+        "price_index": 110.2
+      },
+      {
+        "id": "b-51",
+        "revision": 1,
+        "released_at": "2024-06-04",
+        "series": "b",
+        "month": 51,
+        "cny_per_unit": 6.790037593721937,
+        "price_index": 110.2
+      },
+      {
+        "id": "c-51",
+        "revision": 1,
+        "released_at": "2024-06-04",
+        "series": "c",
+        "month": 51,
+        "cny_per_unit": 8.007948156400966,
+        "price_index": 110.2
+      },
+      {
+        "id": "a-52",
+        "revision": 1,
+        "released_at": "2024-06-07",
+        "series": "a",
+        "month": 52,
+        "cny_per_unit": 1,
+        "price_index": 110.4
+      },
+      {
+        "id": "b-52",
+        "revision": 1,
+        "released_at": "2024-06-07",
+        "series": "b",
+        "month": 52,
+        "cny_per_unit": 6.751652059274304,
+        "price_index": 110.4
+      },
+      {
+        "id": "c-52",
+        "revision": 1,
+        "released_at": "2024-06-07",
+        "series": "c",
+        "month": 52,
+        "cny_per_unit": 8.037488618000166,
+        "price_index": 110.4
+      },
+      {
+        "id": "a-53",
+        "revision": 1,
+        "released_at": "2024-06-10",
+        "series": "a",
+        "month": 53,
+        "cny_per_unit": 1,
+        "price_index": 110.6
+      },
+      {
+        "id": "b-53",
+        "revision": 1,
+        "released_at": "2024-06-10",
+        "series": "b",
+        "month": 53,
+        "cny_per_unit": 6.723167373516158,
+        "price_index": 110.6
+      },
+      {
+        "id": "c-53",
+        "revision": 1,
+        "released_at": "2024-06-10",
+        "series": "c",
+        "month": 53,
+        "cny_per_unit": 8.061633539944905,
+        "price_index": 110.6
+      },
+      {
+        "id": "a-54",
+        "revision": 1,
+        "released_at": "2024-06-13",
+        "series": "a",
+        "month": 54,
+        "cny_per_unit": 1,
+        "price_index": 110.8
+      },
+      {
+        "id": "b-54",
+        "revision": 1,
+        "released_at": "2024-06-13",
+        "series": "b",
+        "month": 54,
+        "cny_per_unit": 6.705719130980053,
+        "price_index": 110.8
+      },
+      {
+        "id": "c-54",
+        "revision": 1,
+        "released_at": "2024-06-13",
+        "series": "c",
+        "month": 54,
+        "cny_per_unit": 8.080085143325183,
+        "price_index": 110.8
+      },
+      {
+        "id": "a-55",
+        "revision": 1,
+        "released_at": "2024-06-16",
+        "series": "a",
+        "month": 55,
+        "cny_per_unit": 1,
+        "price_index": 111.0
+      },
+      {
+        "id": "b-55",
+        "revision": 1,
+        "released_at": "2024-06-16",
+        "series": "b",
+        "month": 55,
+        "cny_per_unit": 6.700002938034789,
+        "price_index": 111.0
+      },
+      {
+        "id": "c-55",
+        "revision": 1,
+        "released_at": "2024-06-16",
+        "series": "c",
+        "month": 55,
+        "cny_per_unit": 8.09261586483162,
+        "price_index": 111.0
+      },
+      {
+        "id": "a-56",
+        "revision": 1,
+        "released_at": "2024-06-19",
+        "series": "a",
+        "month": 56,
+        "cny_per_unit": 1,
+        "price_index": 111.2
+      },
+      {
+        "id": "b-56",
+        "revision": 1,
+        "released_at": "2024-06-19",
+        "series": "b",
+        "month": 56,
+        "cny_per_unit": 6.706246681254605,
+        "price_index": 111.2
+      },
+      {
+        "id": "c-56",
+        "revision": 1,
+        "released_at": "2024-06-19",
+        "series": "c",
+        "month": 56,
+        "cny_per_unit": 8.099071163289878,
+        "price_index": 111.2
+      },
+      {
+        "id": "a-57",
+        "revision": 1,
+        "released_at": "2024-06-22",
+        "series": "a",
+        "month": 57,
+        "cny_per_unit": 1,
+        "price_index": 111.4
+      },
+      {
+        "id": "b-57",
+        "revision": 1,
+        "released_at": "2024-06-22",
+        "series": "b",
+        "month": 57,
+        "cny_per_unit": 6.724201442300597,
+        "price_index": 111.4
+      },
+      {
+        "id": "c-57",
+        "revision": 1,
+        "released_at": "2024-06-22",
+        "series": "c",
+        "month": 57,
+        "cny_per_unit": 8.09937142561431,
+        "price_index": 111.4
+      },
+      {
+        "id": "a-58",
+        "revision": 1,
+        "released_at": "2024-06-25",
+        "series": "a",
+        "month": 58,
+        "cny_per_unit": 1,
+        "price_index": 111.6
+      },
+      {
+        "id": "b-58",
+        "revision": 1,
+        "released_at": "2024-06-25",
+        "series": "b",
+        "month": 58,
+        "cny_per_unit": 6.753151421509387,
+        "price_index": 111.6
+      },
+      {
+        "id": "c-58",
+        "revision": 1,
+        "released_at": "2024-06-25",
+        "series": "c",
+        "month": 58,
+        "cny_per_unit": 8.093512948674798,
+        "price_index": 111.6
+      },
+      {
+        "id": "a-59",
+        "revision": 1,
+        "released_at": "2024-06-28",
+        "series": "a",
+        "month": 59,
+        "cny_per_unit": 1,
+        "price_index": 111.8
+      },
+      {
+        "id": "b-59",
+        "revision": 1,
+        "released_at": "2024-06-28",
+        "series": "b",
+        "month": 59,
+        "cny_per_unit": 6.791942474566863,
+        "price_index": 111.8
+      },
+      {
+        "id": "c-59",
+        "revision": 1,
+        "released_at": "2024-06-28",
+        "series": "c",
+        "month": 59,
+        "cny_per_unit": 8.081567984967387,
+        "price_index": 111.8
+      },
+      {
+        "id": "a-60",
+        "revision": 1,
+        "released_at": "2024-07-01",
+        "series": "a",
+        "month": 60,
+        "cny_per_unit": 1,
+        "price_index": 112.0
+      },
+      {
+        "id": "b-60",
+        "revision": 1,
+        "released_at": "2024-07-01",
+        "series": "b",
+        "month": 60,
+        "cny_per_unit": 6.83902812459987,
+        "price_index": 112.0
+      },
+      {
+        "id": "c-60",
+        "revision": 1,
+        "released_at": "2024-07-01",
+        "series": "c",
+        "month": 60,
+        "cny_per_unit": 8.063683851525488,
+        "price_index": 112.0
+      },
+      {
+        "id": "a-61",
+        "revision": 1,
+        "released_at": "2024-07-04",
+        "series": "a",
+        "month": 61,
+        "cny_per_unit": 1,
+        "price_index": 112.2
+      },
+      {
+        "id": "b-61",
+        "revision": 1,
+        "released_at": "2024-07-04",
+        "series": "b",
+        "month": 61,
+        "cny_per_unit": 6.892531215328951,
+        "price_index": 112.2
+      },
+      {
+        "id": "c-61",
+        "revision": 1,
+        "released_at": "2024-07-04",
+        "series": "c",
+        "month": 61,
+        "cny_per_unit": 8.040081113061417,
+        "price_index": 112.2
+      },
+      {
+        "id": "a-62",
+        "revision": 1,
+        "released_at": "2024-07-07",
+        "series": "a",
+        "month": 62,
+        "cny_per_unit": 1,
+        "price_index": 112.4
+      },
+      {
+        "id": "b-62",
+        "revision": 1,
+        "released_at": "2024-07-07",
+        "series": "b",
+        "month": 62,
+        "cny_per_unit": 6.9503187473655075,
+        "price_index": 112.4
+      },
+      {
+        "id": "c-62",
+        "revision": 1,
+        "released_at": "2024-07-07",
+        "series": "c",
+        "month": 62,
+        "cny_per_unit": 8.01105086174557,
+        "price_index": 112.4
+      },
+      {
+        "id": "a-63",
+        "revision": 1,
+        "released_at": "2024-07-10",
+        "series": "a",
+        "month": 63,
+        "cny_per_unit": 1,
+        "price_index": 112.6
+      },
+      {
+        "id": "b-63",
+        "revision": 1,
+        "released_at": "2024-07-10",
+        "series": "b",
+        "month": 63,
+        "cny_per_unit": 7.010086914166341,
+        "price_index": 112.6
+      },
+      {
+        "id": "c-63",
+        "revision": 1,
+        "released_at": "2024-07-10",
+        "series": "c",
+        "month": 63,
+        "cny_per_unit": 7.976951127171652,
+        "price_index": 112.6
+      },
+      {
+        "id": "a-64",
+        "revision": 1,
+        "released_at": "2024-07-13",
+        "series": "a",
+        "month": 64,
+        "cny_per_unit": 1,
+        "price_index": 112.8
+      },
+      {
+        "id": "b-64",
+        "revision": 1,
+        "released_at": "2024-07-13",
+        "series": "b",
+        "month": 64,
+        "cny_per_unit": 7.069452947530461,
+        "price_index": 112.8
+      },
+      {
+        "id": "c-64",
+        "revision": 1,
+        "released_at": "2024-07-13",
+        "series": "c",
+        "month": 64,
+        "cny_per_unit": 7.938202460783817,
+        "price_index": 112.8
+      },
+      {
+        "id": "a-65",
+        "revision": 1,
+        "released_at": "2024-07-16",
+        "series": "a",
+        "month": 65,
+        "cny_per_unit": 1,
+        "price_index": 113.0
+      },
+      {
+        "id": "b-65",
+        "revision": 1,
+        "released_at": "2024-07-16",
+        "series": "b",
+        "month": 65,
+        "cny_per_unit": 7.126050111047992,
+        "price_index": 113.0
+      },
+      {
+        "id": "c-65",
+        "revision": 1,
+        "released_at": "2024-07-16",
+        "series": "c",
+        "month": 65,
+        "cny_per_unit": 7.895282749222883,
+        "price_index": 113.0
+      },
+      {
+        "id": "a-66",
+        "revision": 1,
+        "released_at": "2024-07-19",
+        "series": "a",
+        "month": 66,
+        "cny_per_unit": 1,
+        "price_index": 113.2
+      },
+      {
+        "id": "b-66",
+        "revision": 1,
+        "released_at": "2024-07-19",
+        "series": "b",
+        "month": 66,
+        "cny_per_unit": 7.177622054412167,
+        "price_index": 113.2
+      },
+      {
+        "id": "c-66",
+        "revision": 1,
+        "released_at": "2024-07-19",
+        "series": "c",
+        "month": 66,
+        "cny_per_unit": 7.848721320558558,
+        "price_index": 113.2
+      },
+      {
+        "id": "a-67",
+        "revision": 1,
+        "released_at": "2024-07-22",
+        "series": "a",
+        "month": 67,
+        "cny_per_unit": 1,
+        "price_index": 113.4
+      },
+      {
+        "id": "b-67",
+        "revision": 1,
+        "released_at": "2024-07-22",
+        "series": "b",
+        "month": 67,
+        "cny_per_unit": 7.222112766985735,
+        "price_index": 113.4
+      },
+      {
+        "id": "c-67",
+        "revision": 1,
+        "released_at": "2024-07-22",
+        "series": "c",
+        "month": 67,
+        "cny_per_unit": 7.799092416095394,
+        "price_index": 113.4
+      },
+      {
+        "id": "a-68",
+        "revision": 1,
+        "released_at": "2024-07-25",
+        "series": "a",
+        "month": 68,
+        "cny_per_unit": 1,
+        "price_index": 113.6
+      },
+      {
+        "id": "b-68",
+        "revision": 1,
+        "released_at": "2024-07-25",
+        "series": "b",
+        "month": 68,
+        "cny_per_unit": 7.257748544456948,
+        "price_index": 113.6
+      },
+      {
+        "id": "c-68",
+        "revision": 1,
+        "released_at": "2024-07-25",
+        "series": "c",
+        "month": 68,
+        "cny_per_unit": 7.747008108264581,
+        "price_index": 113.6
+      },
+      {
+        "id": "a-69",
+        "revision": 1,
+        "released_at": "2024-07-28",
+        "series": "a",
+        "month": 69,
+        "cny_per_unit": 1,
+        "price_index": 113.8
+      },
+      {
+        "id": "b-69",
+        "revision": 1,
+        "released_at": "2024-07-28",
+        "series": "b",
+        "month": 69,
+        "cny_per_unit": 7.283108700833232,
+        "price_index": 113.8
+      },
+      {
+        "id": "c-69",
+        "revision": 1,
+        "released_at": "2024-07-28",
+        "series": "c",
+        "month": 69,
+        "cny_per_unit": 7.693110751945115,
+        "price_index": 113.8
+      },
+      {
+        "id": "a-70",
+        "revision": 1,
+        "released_at": "2024-07-31",
+        "series": "a",
+        "month": 70,
+        "cny_per_unit": 1,
+        "price_index": 114.0
+      },
+      {
+        "id": "b-70",
+        "revision": 1,
+        "released_at": "2024-07-31",
+        "series": "b",
+        "month": 70,
+        "cny_per_unit": 7.297182206708461,
+        "price_index": 114.0
+      },
+      {
+        "id": "c-70",
+        "revision": 1,
+        "released_at": "2024-07-31",
+        "series": "c",
+        "month": 70,
+        "cny_per_unit": 7.638065062312036,
+        "price_index": 114.0
+      },
+      {
+        "id": "a-71",
+        "revision": 1,
+        "released_at": "2024-08-03",
+        "series": "a",
+        "month": 71,
+        "cny_per_unit": 1,
+        "price_index": 114.2
+      },
+      {
+        "id": "b-71",
+        "revision": 1,
+        "released_at": "2024-08-03",
+        "series": "b",
+        "month": 71,
+        "cny_per_unit": 7.299407995814908,
+        "price_index": 114.2
+      },
+      {
+        "id": "c-71",
+        "revision": 1,
+        "released_at": "2024-08-03",
+        "series": "c",
+        "month": 71,
+        "cny_per_unit": 7.582549916915528,
+        "price_index": 114.2
+      },
+      {
+        "id": "a-72",
+        "revision": 1,
+        "released_at": "2024-08-06",
+        "series": "a",
+        "month": 72,
+        "cny_per_unit": 1,
+        "price_index": 114.4
+      },
+      {
+        "id": "b-72",
+        "revision": 1,
+        "released_at": "2024-08-06",
+        "series": "b",
+        "month": 72,
+        "cny_per_unit": 7.289697332964783,
+        "price_index": 114.4
+      },
+      {
+        "id": "c-72",
+        "revision": 1,
+        "released_at": "2024-08-06",
+        "series": "c",
+        "month": 72,
+        "cny_per_unit": 7.527249983095693,
+        "price_index": 114.4
+      },
+      {
+        "id": "a-73",
+        "revision": 1,
+        "released_at": "2024-08-09",
+        "series": "a",
+        "month": 73,
+        "cny_per_unit": 1,
+        "price_index": 114.6
+      },
+      {
+        "id": "b-73",
+        "revision": 1,
+        "released_at": "2024-08-09",
+        "series": "b",
+        "month": 73,
+        "cny_per_unit": 7.268437351642151,
+        "price_index": 114.6
+      },
+      {
+        "id": "c-73",
+        "revision": 1,
+        "released_at": "2024-08-09",
+        "series": "c",
+        "month": 73,
+        "cny_per_unit": 7.472847273991929,
+        "price_index": 114.6
+      },
+      {
+        "id": "a-74",
+        "revision": 1,
+        "released_at": "2024-08-12",
+        "series": "a",
+        "month": 74,
+        "cny_per_unit": 1,
+        "price_index": 114.8
+      },
+      {
+        "id": "b-74",
+        "revision": 1,
+        "released_at": "2024-08-12",
+        "series": "b",
+        "month": 74,
+        "cny_per_unit": 7.236475620212595,
+        "price_index": 114.8
+      },
+      {
+        "id": "c-74",
+        "revision": 1,
+        "released_at": "2024-08-12",
+        "series": "c",
+        "month": 74,
+        "cny_per_unit": 7.4200127372865365,
+        "price_index": 114.8
+      },
+      {
+        "id": "a-75",
+        "revision": 1,
+        "released_at": "2024-08-15",
+        "series": "a",
+        "month": 75,
+        "cny_per_unit": 1,
+        "price_index": 115.0
+      },
+      {
+        "id": "b-75",
+        "revision": 1,
+        "released_at": "2024-08-15",
+        "series": "b",
+        "month": 75,
+        "cny_per_unit": 7.195086352047135,
+        "price_index": 115.0
+      },
+      {
+        "id": "c-75",
+        "revision": 1,
+        "released_at": "2024-08-15",
+        "series": "c",
+        "month": 75,
+        "cny_per_unit": 7.369397980418405,
+        "price_index": 115.0
+      },
+      {
+        "id": "a-76",
+        "revision": 1,
+        "released_at": "2024-08-18",
+        "series": "a",
+        "month": 76,
+        "cny_per_unit": 1,
+        "price_index": 115.2
+      },
+      {
+        "id": "b-76",
+        "revision": 1,
+        "released_at": "2024-08-18",
+        "series": "b",
+        "month": 76,
+        "cny_per_unit": 7.14591960665614,
+        "price_index": 115.2
+      },
+      {
+        "id": "c-76",
+        "revision": 1,
+        "released_at": "2024-08-18",
+        "series": "c",
+        "month": 76,
+        "cny_per_unit": 7.321627234319602,
+        "price_index": 115.2
+      },
+      {
+        "id": "a-77",
+        "revision": 1,
+        "released_at": "2024-08-21",
+        "series": "a",
+        "month": 77,
+        "cny_per_unit": 1,
+        "price_index": 115.4
+      },
+      {
+        "id": "b-77",
+        "revision": 1,
+        "released_at": "2024-08-21",
+        "series": "b",
+        "month": 77,
+        "cny_per_unit": 7.090935507023711,
+        "price_index": 115.4
+      },
+      {
+        "id": "c-77",
+        "revision": 1,
+        "released_at": "2024-08-21",
+        "series": "c",
+        "month": 77,
+        "cny_per_unit": 7.277289654785946,
+        "price_index": 115.4
+      },
+      {
+        "id": "a-78",
+        "revision": 1,
+        "released_at": "2024-08-24",
+        "series": "a",
+        "month": 78,
+        "cny_per_unit": 1,
+        "price_index": 115.6
+      },
+      {
+        "id": "b-78",
+        "revision": 1,
+        "released_at": "2024-08-24",
+        "series": "b",
+        "month": 78,
+        "cny_per_unit": 7.032326095689833,
+        "price_index": 115.6
+      },
+      {
+        "id": "c-78",
+        "revision": 1,
+        "released_at": "2024-08-24",
+        "series": "c",
+        "month": 78,
+        "cny_per_unit": 7.236932056428637,
+        "price_index": 115.6
+      },
+      {
+        "id": "a-79",
+        "revision": 1,
+        "released_at": "2024-08-27",
+        "series": "a",
+        "month": 79,
+        "cny_per_unit": 1,
+        "price_index": 115.8
+      },
+      {
+        "id": "b-79",
+        "revision": 1,
+        "released_at": "2024-08-27",
+        "series": "b",
+        "month": 79,
+        "cny_per_unit": 6.972427944931695,
+        "price_index": 115.8
+      },
+      {
+        "id": "c-79",
+        "revision": 1,
+        "released_at": "2024-08-27",
+        "series": "c",
+        "month": 79,
+        "cny_per_unit": 7.201052168818998,
+        "price_index": 115.8
+      },
+      {
+        "id": "a-80",
+        "revision": 1,
+        "released_at": "2024-08-30",
+        "series": "a",
+        "month": 80,
+        "cny_per_unit": 1,
+        "price_index": 116.0
+      },
+      {
+        "id": "b-80",
+        "revision": 1,
+        "released_at": "2024-08-30",
+        "series": "b",
+        "month": 80,
+        "cny_per_unit": 6.91362900500048,
+        "price_index": 116.0
+      },
+      {
+        "id": "c-80",
+        "revision": 1,
+        "released_at": "2024-08-30",
+        "series": "c",
+        "month": 80,
+        "cny_per_unit": 7.170092497998168,
+        "price_index": 116.0
+      },
+      {
+        "id": "a-81",
+        "revision": 1,
+        "released_at": "2024-09-02",
+        "series": "a",
+        "month": 81,
+        "cny_per_unit": 1,
+        "price_index": 116.2
+      },
+      {
+        "id": "b-81",
+        "revision": 1,
+        "released_at": "2024-09-02",
+        "series": "b",
+        "month": 81,
+        "cny_per_unit": 6.85827340408046,
+        "price_index": 116.2
+      },
+      {
+        "id": "c-81",
+        "revision": 1,
+        "released_at": "2024-09-02",
+        "series": "c",
+        "month": 81,
+        "cny_per_unit": 7.144434869057661,
+        "price_index": 116.2
+      },
+      {
+        "id": "a-82",
+        "revision": 1,
+        "released_at": "2024-09-05",
+        "series": "a",
+        "month": 82,
+        "cny_per_unit": 1,
+        "price_index": 116.4
+      },
+      {
+        "id": "b-82",
+        "revision": 1,
+        "released_at": "2024-09-05",
+        "series": "b",
+        "month": 82,
+        "cny_per_unit": 6.808567995295616,
+        "price_index": 116.4
+      },
+      {
+        "id": "c-82",
+        "revision": 1,
+        "released_at": "2024-09-05",
+        "series": "c",
+        "month": 82,
+        "cny_per_unit": 7.1243957170970225,
+        "price_index": 116.4
+      },
+      {
+        "id": "a-83",
+        "revision": 1,
+        "released_at": "2024-09-08",
+        "series": "a",
+        "month": 83,
+        "cny_per_unit": 1,
+        "price_index": 116.6
+      },
+      {
+        "id": "b-83",
+        "revision": 1,
+        "released_at": "2024-09-08",
+        "series": "b",
+        "month": 83,
+        "cny_per_unit": 6.76649437643971,
+        "price_index": 116.6
+      },
+      {
+        "id": "c-83",
+        "revision": 1,
+        "released_at": "2024-09-08",
+        "series": "c",
+        "month": 83,
+        "cny_per_unit": 7.110222184635159,
+        "price_index": 116.6
+      }
+    ],
+    "regimes": [
+      {
+        "id": "c-scope",
+        "revision": 1,
+        "released_at": "2024-05-29",
+        "series": "c",
+        "month_from": 48,
+        "month_to": 83,
+        "scope": "expanded",
+        "comparable": false
+      }
+    ]
+  },
+  "policy": {}
+}
