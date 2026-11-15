@@ -4,7 +4,7 @@ exchange-equilibrium 是 Python 业务分析应用，目前提供原始资料核
 
 ## 目录和边界
 
-`exchange_equilibrium/data.py` 读取资料并冻结公开日期可见的版本。`product.py` 实现当前领域摘要，`workflow.py` 串联资料读取与成果发布，`service.py` 提供本地 HTTP 资料和消费接口，`store.py` 保存不可变成果和当前消费约束，`client.py` 是调用适配层。服务接口见 `docs/protocol.md`，具体资料含义见 `docs/data-contract.md`。`tests` 覆盖已有业务口径与联调，不代表新增方法已经实现。
+`exchange_equilibrium/data.py` 读取资料并冻结公开日期可见的版本。`product.py` 实现当前领域摘要，`segments.py` 按口径变更切分可估计样本段，`equilibrium.py` 执行单位根、Engle–Granger 与 Johansen 双路协整及误差修正判断，`scenarios.py` 提供带不确定带的条件路径情景与 Granger 先后检验，`backtest.py` 按发布当时资料做 vintage 历史检验，`analysis.py` 总装为 `equilibrium-analysis-v1` 成果，`workflow.py` 串联资料读取与成果发布，`service.py` 提供本地 HTTP 资料和消费接口，`store.py` 保存不可变成果和当前消费约束，`client.py` 是调用适配层。服务接口见 `docs/protocol.md`，具体资料含义见 `docs/data-contract.md`，均衡分析的方法语义与系数解释见 `docs/equilibrium-analysis.md`。`tests` 覆盖已有业务口径与联调，不代表新增方法已经实现。
 
 ## 环境和依赖
 
@@ -33,4 +33,4 @@ python tools/demo.py
 python -m exchange_equilibrium.service --port 8765
 ```
 
-默认服务地址为 `127.0.0.1:8765`，本地成果保存在 `local-state.sqlite3`。启动后资料只读；本地消费约束可通过管理接口变更，不会修改已发布成果。中断运行可正常退出。已有概览使用 `observed-overview-v1` 标明方法版本，额外分析可使用自己的方法和结果结构，不能复用旧方法名掩盖语义变化。
+默认服务地址为 `127.0.0.1:8765`，本地成果保存在 `local-state.sqlite3`。启动后资料只读；本地消费约束可通过管理接口变更，不会修改已发布成果。中断运行可正常退出。已有概览使用 `observed-overview-v1` 标明方法版本，额外分析可使用自己的方法和结果结构，不能复用旧方法名掩盖语义变化。长期均衡与条件情景分析使用独立的 `equilibrium-analysis-v1` 方法名，协整证据冲突的区间保留分歧，条件情景同时发布基准路径、条件路径与不确定带，不把统计先后响应称为因果效应。

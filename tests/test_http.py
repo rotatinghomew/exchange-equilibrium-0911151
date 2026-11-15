@@ -3,11 +3,12 @@ from pathlib import Path
 import tempfile
 import unittest
 
+from exchange_equilibrium.analysis import build_artifact
 from exchange_equilibrium.client import ProductClient, RemoteError
 from exchange_equilibrium.data import load_bundle
 from exchange_equilibrium.service import running_service
 from exchange_equilibrium.store import ArtifactStore
-from exchange_equilibrium.workflow import publish_overview
+from exchange_equilibrium.workflow import build_equilibrium_artifact, publish_equilibrium_analysis, publish_overview
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -79,6 +80,27 @@ class IntegrationTests(unittest.TestCase):
         with self.assertRaises(RemoteError) as error:
             self.client.artifact("missing")
         self.assertEqual(error.exception.status, 404)
+
+    def test_equilibrium_analysis_roundtrip_keeps_conditions(self):
+        bundle = load_bundle(ROOT / "fixtures/bundle.json")
+        snapshot = self.client.snapshot("2026-01-01")
+        from exchange_equilibrium.backtest import backtest
+
+        history = backtest(bundle, scenario_source="b")
+        artifact = build_equilibrium_artifact(
+            snapshot,
+            scenario={"source_series": "b", "shocks": [0.01] * 6, "horizon": 6},
+            historical_backtest=history,
+        )
+        receipt = publish_equilibrium_analysis(self.client, artifact, "equilibrium-demo")
+        restored = self.client.artifact(receipt["artifact_id"])
+        self.assertEqual(restored, artifact)
+        self.assertEqual(restored["method"], "equilibrium-analysis-v1")
+        for segment in restored["result"]["segments"]:
+            scenario = segment["conditional_scenario"]
+            self.assertIn("baseline", scenario)
+            self.assertIn("conditional_scenario", scenario)
+        self.assertIn("historical_backtest", restored["result"])
 
     def test_persistence_after_reopen(self):
         path = str(Path(self.directory.name) / "separate.sqlite3")
